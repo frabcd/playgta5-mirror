@@ -9,10 +9,14 @@ BASE=f"https://api.cloudflare.com/client/v4/accounts/{ACCOUNT}/pages/projects/{P
 def api(path="",method="GET"):
     headers={"Authorization":"Bearer "+os.environ["CLOUDFLARE_API_TOKEN"],"Content-Type":"application/json"}
     request=urllib.request.Request(BASE+path,headers=headers,method=method,data=b"{}" if method=="POST" else None)
-    with urllib.request.urlopen(request,timeout=120) as response: result=json.load(response)
+    try:
+        with urllib.request.urlopen(request,timeout=120) as response: result=json.load(response)
+    except urllib.error.HTTPError as error:
+        details=json.load(error)
+        raise RuntimeError("Cloudflare API status "+str(error.code)+": "+json.dumps(details.get("errors"))) from None
     if not result.get("success"): raise RuntimeError("Cloudflare operation failed: "+json.dumps(result.get("errors")))
     return result.get("result")
-deployments=api("/deployments?per_page=100")
+deployments=api("/deployments?per_page=25")
 assert any(d["id"]==ORIGINAL and d["environment"]=="production" for d in deployments),"Original toolbox deployment missing"
 targets=[d for d in deployments if d["id"].split("-")[0] in PREFIXES]
 assert all(d["id"]!=ORIGINAL for d in targets)
@@ -26,7 +30,7 @@ for deployment in targets:
     assert api()["production_deployment"]["id"]==ORIGINAL,"Production changed; cleanup stopped"
     api("/deployments/"+deployment["id"]+"?force=true","DELETE")
     deleted.append(deployment["id"])
-remaining=api("/deployments?per_page=100")
+remaining=api("/deployments?per_page=25")
 assert not any(d["id"].split("-")[0] in PREFIXES for d in remaining)
 def page(path,host="https://fran-abcd-abcd.pages.dev"):
     request=urllib.request.Request(host+path,headers={"User-Agent":"Fran-Restoration-Check/1.0","Cache-Control":"no-cache"})
