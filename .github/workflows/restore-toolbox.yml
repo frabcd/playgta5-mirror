@@ -38,6 +38,9 @@ jobs:
               target=Path('toolbox')/asset['path']
               target.parent.mkdir(parents=True,exist_ok=True)
               target.write_bytes(data)
+          import shutil
+          shutil.copyfile('restore-toolbox/build-game-gate.mjs','toolbox/scripts/build-game-gate.mjs')
+          shutil.copyfile('restore-toolbox/test-game-gate.mjs','toolbox/scripts/test-game-gate.mjs')
           PY
       - name: Build and typecheck restored site inside VM
         working-directory: toolbox

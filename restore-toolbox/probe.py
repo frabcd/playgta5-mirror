@@ -31,7 +31,12 @@ with request("/api/game-unlock",json.dumps({"password":os.environ["GTA_PASSWORD"
     assert response.status==200
     cookie=response.headers["Set-Cookie"]
     assert "HttpOnly" in cookie and "Secure" in cookie and "SameSite=Strict" in cookie
-assert b"9104c0b6.fran-abcd-abcd.pages.dev" in get("/calculator/gta-v/play")
+assert b'src="/calculator/gta-v/frame?' in get("/calculator/gta-v/play")
+with request("/calculator/gta-v/frame?low=1") as response:
+    assert response.headers.get("X-Frame-Options")=="SAMEORIGIN"
+    assert response.headers.get("Cross-Origin-Embedder-Policy")=="require-corp"
+    assert b'<base href="/">' in response.read()
+assert b"GAME_CHUNKS" in get("/chunk-index.js")
 report={"origin":origin,"toolbox_and_original_routes":True,"calculator_entry":True,"anonymous_access_blocked":True,"wrong_password_rejected":True,"correct_password_accepted":True,"protected_game_frame":True}
 Path("reports").mkdir(exist_ok=True)
 Path("reports/"+("production" if args.origin else "preview")+".json").write_text(json.dumps(report,indent=2))
