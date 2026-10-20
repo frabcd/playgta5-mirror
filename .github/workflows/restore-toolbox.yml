@@ -1,0 +1,66 @@
+name: Restore toolbox and password-protected calculator game
+on:
+  push:
+    branches: [codex/multiplayer-virtual-setup]
+    paths: ['restore-toolbox/**', '.github/workflows/restore-toolbox.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: fran-abcd-abcd-production
+  cancel-in-progress: false
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GTA_PASSWORD: ${{ secrets.GTA_PASSWORD }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: '591f8fad9d51a834bf7714007337623c'
+      WRANGLER_SEND_METRICS: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Extract original toolbox source and verify original assets
+        run: |
+          python - <<'PY'
+          import hashlib,json,urllib.request,zipfile
+          from pathlib import Path
+          with zipfile.ZipFile('restore-toolbox/source.zip') as archive:
+              assert all(not Path(p).is_absolute() and '..' not in Path(p).parts for p in archive.namelist())
+              archive.extractall('toolbox')
+          for asset in json.loads(Path('restore-toolbox/assets.json').read_text()):
+              request=urllib.request.Request(asset['url'],headers={'User-Agent':'Fran-Toolbox-AssetVerifier/1.0'})
+              with urllib.request.urlopen(request,timeout=90) as response: data=response.read()
+              assert hashlib.sha256(data).hexdigest()==asset['sha256'],asset['path']
+              target=Path('toolbox')/asset['path']
+              target.parent.mkdir(parents=True,exist_ok=True)
+              target.write_bytes(data)
+          PY
+      - name: Build and typecheck restored site inside VM
+        working-directory: toolbox
+        run: |
+          npm ci
+          npm run build -- --webpack
+      - name: Package and test server-side password protection
+        working-directory: toolbox
+        run: |
+          node scripts/build-game-gate.mjs
+          node scripts/test-game-gate.mjs
+      - name: Deploy isolated preview
+        run: npx --yes wrangler@4.151.2 pages deploy toolbox/out --project-name=fran-abcd-abcd --branch=calculator-preview --commit-dirty=true | tee "$RUNNER_TEMP/calculator-preview.log"
+      - name: Verify preview toolbox, old routes and password gate
+        run: python restore-toolbox/probe.py --log "$RUNNER_TEMP/calculator-preview.log"
+      - name: Restore production homepage and calculator entry
+        run: npx --yes wrangler@4.151.2 pages deploy toolbox/out --project-name=fran-abcd-abcd --branch=main --commit-dirty=true
+      - name: Verify production restoration and password entry
+        run: python restore-toolbox/probe.py --origin https://fran-abcd-abcd.pages.dev
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Restored-Toolbox-Verification
+          path: reports/*.json
+          retention-days: 7
+          if-no-files-found: warn
