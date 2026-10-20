@@ -1,0 +1,5 @@
+.env
+deploy/.env
+deploy/world-data/*
+!deploy/world-data/.gitkeep
+__pycache__/

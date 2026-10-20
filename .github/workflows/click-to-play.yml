@@ -1,0 +1,109 @@
+name: Click-to-play ZIPs - Windows and Mac
+on:
+  push:
+    branches: [main, codex/multiplayer-virtual-setup]
+    paths: ['click/**', '.github/workflows/click-to-play.yml', 'download_game.py', 'serve_local.py', 'download-manifest.json', 'file-inventory.json', 'support/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: click-to-play-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHONUTF8: '1'
+  PYTHONDONTWRITEBYTECODE: '1'
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      full_assets: ${{ steps.changed.outputs.full }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - id: changed
+        name: Select full download verification when installer inputs change
+        run: |
+          python - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          event = json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text())
+          before = event.get('before', '')
+          full = os.environ['GITHUB_EVENT_NAME'] == 'workflow_dispatch' or not before or set(before) == {'0'}
+          if not full:
+              paths = subprocess.check_output(['git', 'diff', '--name-only', before, 'HEAD'], text=True).splitlines()
+              inputs = {'click/launch.py', 'click/verify_full_install.py', 'download_game.py', 'serve_local.py',
+                        'download-manifest.json', 'file-inventory.json'}
+              full = any(path in inputs or path.startswith('support/') for path in paths)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('full=' + str(full).lower() + '\n')
+          PY
+
+  package:
+    name: Click-to-play - ${{ matrix.platform }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: Windows-x64
+            os: windows-latest
+          - platform: macOS-arm64
+            os: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch compatible native release and verify pinned SHA-256
+        run: python -B click/fetch_native.py --platform ${{ matrix.platform }}
+      - name: Install freezer inside hosted VM
+        run: python -m pip install pyinstaller==6.16.0
+      - name: Exercise downloader and local server
+        env:
+          PYTHONPATH: .
+        run: python -B click/launch.py --self-test
+      - name: Build self-contained entry point and native launcher ZIP
+        run: python -B click/package.py --platform ${{ matrix.platform }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PlayGTA5-Click-to-Play-${{ matrix.platform }}
+          path: click-dist/*
+          retention-days: 7
+          if-no-files-found: error
+
+  full-assets:
+    needs: plan
+    if: needs.plan.outputs.full_assets == 'true'
+    name: All 14 asset archives - install, hash verification and host startup
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check VM disk capacity
+        run: df -h .
+      - name: Download and verify complete published snapshot inside VM
+        env:
+          PYTHONPATH: .
+        run: |
+          python -B click/launch.py --install-root "$RUNNER_TEMP/PlayGTA5" --install-only
+          python -B click/launch.py --install-root "$RUNNER_TEMP/PlayGTA5" --verify
+      - name: Start and check the real resource host inside VM
+        env:
+          PYTHONPATH: .
+        run: python -B click/verify_full_install.py "$RUNNER_TEMP/PlayGTA5"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: PlayGTA5-Full-Asset-Verification
+          path: click-reports/*
+          retention-days: 7
+          if-no-files-found: warn

@@ -1,0 +1,64 @@
+name: Single-player Cloudflare Pages
+on:
+  push:
+    branches: [codex/multiplayer-virtual-setup]
+    paths: ['.github/workflows/singleplayer-pages.yml', 'hosting/verify_pages.py']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: fran-abcd-abcd-production
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: false # Archived: production belongs to the restored toolbox.
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download and verify complete snapshot in disposable VM
+        env:
+          PYTHONPATH: .
+        run: python -B click/launch.py --install-root "$RUNNER_TEMP/PlayGTA5" --install-only
+      - name: Package and verify all single-player assets for Pages
+        run: |
+          python -B build_pages.py --source "$RUNNER_TEMP/PlayGTA5/mirror/playgta5.com" --output "$RUNNER_TEMP/pages-output"
+          python -B hosting/verify_pages.py "$RUNNER_TEMP/pages-output"
+      - name: Check deployment authorization
+        id: auth
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -n "$CF_TOKEN" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Build verified. Deployment awaits CLOUDFLARE_API_TOKEN repository secret."
+          fi
+      - name: Publish existing fran-abcd-abcd project, production branch main
+        if: steps.auth.outputs.ready == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: '591f8fad9d51a834bf7714007337623c'
+          WRANGLER_SEND_METRICS: 'false'
+          NODE_OPTIONS: '--max-old-space-size=4096'
+        run: npx --yes wrangler@4.151.2 pages deploy "$RUNNER_TEMP/pages-output" --project-name=fran-abcd-abcd --branch=main
+      - name: Verify deployed production headers and engine chunks
+        if: steps.auth.outputs.ready == 'true'
+        run: python -B hosting/verify_pages.py "$RUNNER_TEMP/pages-output" --origin https://fran-abcd-abcd.pages.dev
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Singleplayer-Pages-Verification
+          path: pages-reports/*
+          retention-days: 7
+          if-no-files-found: warn

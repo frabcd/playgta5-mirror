@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "upstream_repository": "AliYa-chen/gtav-web-multiplayer-launcher",
+  "upstream_commit": "9726fa0219120cafce8e26bc37eb3c01126df00e",
+  "mirror_commit": "13d5c9dbebbb6d2d1803a9db648b89c56cdc6842",
+  "original_wasm_sha256": "11ca8d2c04c5e843d18ff4aea4899d72c86973c6b031df334e67c446b2ae83e0",
+  "engine_files": [
+    {
+      "path": "mirror/playgta5.com/b/8b0b5899ed/game.js",
+      "bytes": 124240,
+      "sha256": "81a7d6e912238de3d89bcafb1b01450671c6793167babb0ec970f308f454bcf0",
+      "part": "playgta5-part-01-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/b/8b0b5899ed/game.wasm",
+      "bytes": 63201802,
+      "sha256": "11ca8d2c04c5e843d18ff4aea4899d72c86973c6b031df334e67c446b2ae83e0",
+      "part": "playgta5-part-01-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/b/8b0b5899ed/io_worker.js",
+      "bytes": 41287,
+      "sha256": "d91c89e64f7f280666b5c9d1669ed6d65d66605077264569a49146ed79fe0bae",
+      "part": "playgta5-part-01-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/b/8b0b5899ed/wgpu_worker.js",
+      "bytes": 194031,
+      "sha256": "826dfaa9012dee081db6985b8973c18882ccafae23f935f6eb18eec392ebec58",
+      "part": "playgta5-part-01-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/data/manifest.json",
+      "bytes": 393014,
+      "sha256": "c5d7b041dbcde22e54f97dc271a52690ea6101391bfda3fb9ecd13d8ef748c1a",
+      "part": "playgta5-part-01-of-14.zip"
+    }
+  ],
+  "ped_inputs": [
+    {
+      "path": "mirror/playgta5.com/data/x64/levels/gta5/paths.rpf",
+      "bytes": 1931264,
+      "sha256": "0151931b69fe8b1d5f530086339fdeb7854c53dc9d8ced5377124fb88e7e3250",
+      "part": "playgta5-part-12-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/data/x64/models/cdimages/componentpeds_a_f_y.rpf",
+      "bytes": 123437056,
+      "sha256": "db7f8959efc15a91faf3c7ff1c6d230737a58b4c7c78e22435d6f9cdd98f1cf6",
+      "part": "playgta5-part-12-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/data/x64/models/cdimages/componentpeds_a_m_y.rpf",
+      "bytes": 197400576,
+      "sha256": "f7a137a2863367ba093a485833b4ffb75f078aafab14ef0e69884f64128f008c",
+      "part": "playgta5-part-13-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/data/x64/models/cdimages/componentpeds_s_m_y.rpf",
+      "bytes": 106465280,
+      "sha256": "9005f7177aefeee0d08bf44aebc4d7935de7c6458fa0900ff4202bc8623c6a52",
+      "part": "playgta5-part-13-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/data/x64/models/cdimages/streamedpeds_mp.rpf",
+      "bytes": 206221312,
+      "sha256": "0d9b6f1200e684b4dbd6cac4f144e3c4686f8f7cacc9c727d91dc4e9fb5af34a",
+      "part": "playgta5-part-13-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/data/x64/models/z_z_fred.yft",
+      "bytes": 22563,
+      "sha256": "88b90e3104464c947439c70764df617f9356ef4f048a3501368c4ab8a494f1b6",
+      "part": "playgta5-part-14-of-14.zip"
+    },
+    {
+      "path": "mirror/playgta5.com/data/x64/models/z_z_wilma.yft",
+      "bytes": 22373,
+      "sha256": "f34630d7ae7a2b486dab37041070bca7a01b5c1b81dcea5b5c28604e46e9883a",
+      "part": "playgta5-part-14-of-14.zip"
+    }
+  ]
+}

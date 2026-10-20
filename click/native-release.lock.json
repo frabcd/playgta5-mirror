@@ -1,0 +1,37 @@
+{
+  "repository": "AliYa-chen/gtav-web-multiplayer-launcher",
+  "tag": "launcher-v0.2.21",
+  "commit": "9726fa0219120cafce8e26bc37eb3c01126df00e",
+  "assets": [
+    {
+      "name": "GTA5Data-Launcher-macOS-arm64-v0.2.21-development.zip",
+      "bytes": 5823758,
+      "sha256": "1360334cb825d27facc3ee1f0973d046c6ec30baf9fb33dc25f8e7cdd0d198db",
+      "url": "https://github.com/AliYa-chen/gtav-web-multiplayer-launcher/releases/download/launcher-v0.2.21/GTA5Data-Launcher-macOS-arm64-v0.2.21-development.zip"
+    },
+    {
+      "name": "GTA5Data-Launcher-Windows-x64-v0.2.21.exe",
+      "bytes": 16134144,
+      "sha256": "bc9e8b9db4605014ac26506a68752aa398387dbb0fef1110fd6c0629fd4682e2",
+      "url": "https://github.com/AliYa-chen/gtav-web-multiplayer-launcher/releases/download/launcher-v0.2.21/GTA5Data-Launcher-Windows-x64-v0.2.21.exe"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 1167,
+      "sha256": "3c1a2d621534463f8e116d662252fca9907a1088d06ddde6b82d2c4794284360",
+      "url": "https://github.com/AliYa-chen/gtav-web-multiplayer-launcher/releases/download/launcher-v0.2.21/LICENSE"
+    },
+    {
+      "name": "NOTICE.md",
+      "bytes": 2494,
+      "sha256": "a106fcfaa74fe93dccc0f90e95ea9efc03f9eaf867af9a2311d1975d021a7751",
+      "url": "https://github.com/AliYa-chen/gtav-web-multiplayer-launcher/releases/download/launcher-v0.2.21/NOTICE.md"
+    },
+    {
+      "name": "NOTICE.zh-CN.md",
+      "bytes": 2175,
+      "sha256": "6cc24d36a05cc0724daf26d38dc83d9b948c08dfde2c17adb05cb5ecf0f2e92e",
+      "url": "https://github.com/AliYa-chen/gtav-web-multiplayer-launcher/releases/download/launcher-v0.2.21/NOTICE.zh-CN.md"
+    }
+  ]
+}

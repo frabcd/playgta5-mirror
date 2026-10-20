@@ -1,0 +1,26 @@
+name: Verify deployed single-player site
+on:
+  push:
+    branches: [codex/multiplayer-virtual-setup]
+    paths: ['hosting/probe_production.py', '.github/workflows/verify-singleplayer.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: false # GTA is local-only; online publishing/testing disabled at user request.
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify public responses and complete deployed engine hash
+        run: python -B hosting/probe_production.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Public-Production-Verification
+          path: pages-reports/public-production.json
+          retention-days: 7
