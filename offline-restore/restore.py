@@ -20,14 +20,15 @@ deployments=api("/deployments?per_page=25")
 assert any(d["id"]==ORIGINAL and d["environment"]=="production" for d in deployments),"Original toolbox deployment missing"
 targets=[d for d in deployments if d["id"].split("-")[0] in PREFIXES]
 assert all(d["id"]!=ORIGINAL for d in targets)
-api("/deployments/"+ORIGINAL+"/rollback","POST")
+if api()["canonical_deployment"]["id"]!=ORIGINAL:
+    api("/deployments/"+ORIGINAL+"/rollback","POST")
 for _ in range(12):
-    if api()["production_deployment"]["id"]==ORIGINAL: break
+    if api()["canonical_deployment"]["id"]==ORIGINAL: break
     time.sleep(5)
 else: raise RuntimeError("Rollback did not become production")
 deleted=[]
 for deployment in targets:
-    assert api()["production_deployment"]["id"]==ORIGINAL,"Production changed; cleanup stopped"
+    assert api()["canonical_deployment"]["id"]==ORIGINAL,"Production changed; cleanup stopped"
     api("/deployments/"+deployment["id"]+"?force=true","DELETE")
     deleted.append(deployment["id"])
 remaining=api("/deployments?per_page=25")
