@@ -4,11 +4,11 @@ parser=argparse.ArgumentParser()
 parser.add_argument("--origin")
 parser.add_argument("--log",type=Path)
 args=parser.parse_args()
-origin=args.origin or re.findall(r"https://[a-f0-9]+\\.fran-abcd-abcd\\.pages\\.dev",args.log.read_text())[-1]
+origin=args.origin or re.findall(r"https://[a-f0-9]+[.]fran-abcd-abcd[.]pages[.]dev",args.log.read_text())[-1]
 jar=http.cookiejar.CookieJar()
 opener=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
 def request(path,data=None):
-    headers={"User-Agent":"Frान-Toolbox-DeploymentCheck/1.0".replace("Frान","Fran")}
+    headers={"User-Agent":"Fran-Toolbox-DeploymentCheck/1.0"}
     if data is not None: headers.update({"Content-Type":"application/json","Origin":origin})
     return opener.open(urllib.request.Request(origin+path,data=data,headers=headers),timeout=90)
 def get(path):
