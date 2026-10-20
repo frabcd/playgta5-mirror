@@ -1,7 +1,9 @@
 # Build/run only on a remote VM or hosted CI runner.
 FROM eclipse-temurin:17-jdk-jammy AS build
 ARG UPSTREAM_COMMIT=9726fa0219120cafce8e26bc37eb3c01126df00e
-RUN apt-get update && apt-get install -y --no-install-recommends git python3 libzstd1 ca-certificates && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends git python3 python3-venv libzstd1 ca-certificates && rm -rf /var/lib/apt/lists/*
+RUN python3 -m venv /opt/export-venv && /opt/export-venv/bin/pip install --no-cache-dir pycryptodome==3.23.0
+ENV PATH="/opt/export-venv/bin:$PATH"
 WORKDIR /source
 RUN git init && git remote add origin https://github.com/AliYa-chen/gtav-web-multiplayer-launcher.git && git fetch --depth=1 origin "$UPSTREAM_COMMIT" && git checkout --detach FETCH_HEAD && test "$(git rev-parse HEAD)" = "$UPSTREAM_COMMIT"
 RUN python3 -B tools/build_multiplayer_server.py
