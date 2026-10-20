@@ -18,7 +18,10 @@ def main(platform):
     native = ROOT / "native"
     native.mkdir(exist_ok=True)
     suffix = ".exe" if platform == "Windows-x64" else "-development.zip"
-    chosen = next(r for r in LOCK["assets"] if r["name"].endswith(suffix))
+    candidates = [r for r in LOCK["assets"] if r["name"].endswith(suffix)]
+    if len(candidates) != 1:
+        raise ValueError("Release lock must contain exactly one native package for " + platform)
+    chosen = candidates[0]
     legal = [r for r in LOCK["assets"] if r["name"] in ("LICENSE", "NOTICE.md", "NOTICE.zh-CN.md")]
     downloaded = []
     for record in [chosen, *legal]:
