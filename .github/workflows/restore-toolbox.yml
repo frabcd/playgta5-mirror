@@ -11,6 +11,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   restore:
+    if: false # GTA is local-only; online publishing/testing disabled at user request.
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:

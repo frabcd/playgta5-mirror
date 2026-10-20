@@ -8,6 +8,7 @@ permissions:
   contents: read
 jobs:
   verify:
+    if: false # GTA is local-only; online publishing/testing disabled at user request.
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
