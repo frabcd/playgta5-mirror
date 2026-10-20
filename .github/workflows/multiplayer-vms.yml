@@ -1,0 +1,157 @@
+name: Multiplayer - isolated Windows, Mac and server builds
+
+on:
+  push:
+    branches: [main, codex/multiplayer-virtual-setup]
+    paths: ['multiplayer/**', '.github/workflows/multiplayer-vms.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: multiplayer-vms-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUTF8: '1'
+  PYTHONDONTWRITEBYTECODE: '1'
+  UPSTREAM_COMMIT: 9726fa0219120cafce8e26bc37eb3c01126df00e
+
+jobs:
+  clients:
+    name: Client - ${{ matrix.platform }}
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: Windows-x64
+            os: windows-latest
+            target: x86_64-pc-windows-msvc
+          - platform: macOS-arm64
+            os: macos-latest
+            target: aarch64-apple-darwin
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: AliYa-chen/gtav-web-multiplayer-launcher
+          ref: ${{ env.UPSTREAM_COMMIT }}
+          path: upstream
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: upstream/desktop/package-lock.json
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: upstream/desktop/src-tauri -> target
+          key: mirror-${{ matrix.target }}
+      - name: Validate pinned source and mirror compatibility
+        run: python -B multiplayer/ci.py prepare
+      - name: Install dependencies inside this hosted VM
+        working-directory: upstream/desktop
+        run: npm ci
+      - name: Build Windows portable application
+        if: runner.os == 'Windows'
+        working-directory: upstream/desktop
+        run: npm run tauri -- build --target x86_64-pc-windows-msvc --no-bundle
+      - name: Build Apple Silicon application
+        if: runner.os == 'macOS'
+        working-directory: upstream/desktop
+        run: npm run tauri -- build --target aarch64-apple-darwin --bundles app
+      - name: Verify executable, package, notices and SHA-256
+        run: python -B multiplayer/ci.py package --platform ${{ matrix.platform }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PlayGTA5-Multiplayer-${{ matrix.platform }}
+          path: dist/*
+          if-no-files-found: error
+          retention-days: 7
+
+  server:
+    name: Server - eight-client protocol and container checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: AliYa-chen/gtav-web-multiplayer-launcher
+          ref: ${{ env.UPSTREAM_COMMIT }}
+          path: upstream
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Validate source and compile server
+        run: |
+          python -B multiplayer/ci.py prepare
+          python -B upstream/tools/build_multiplayer_server.py
+      - name: Verify eight independent connections, snapshots and heartbeat
+        run: python -B multiplayer/ci.py smoke
+      - name: Build and exercise isolated server container
+        run: |
+          docker build -f multiplayer/deploy/Dockerfile --build-arg UPSTREAM_COMMIT="$UPSTREAM_COMMIT" -t playgta5-multiplayer:ci .
+          docker run -d --name multiplayer-check -p 127.0.0.1:18787:8787 playgta5-multiplayer:ci
+          node multiplayer/smoke.mjs http://127.0.0.1:18787
+      - name: Validate deployment configuration
+        working-directory: multiplayer/deploy
+        env:
+          GAME_DOMAIN: game.example.com
+        run: docker compose config --quiet
+      - name: Package standalone JAR and deployment files
+        run: python -B multiplayer/ci.py package --platform server
+      - name: Stop disposable container
+        if: always()
+        run: docker rm -f multiplayer-check || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: PlayGTA5-Multiplayer-server
+          path: dist/*
+          if-no-files-found: warn
+          retention-days: 7
+
+  engine:
+    name: Engine - verify real mirror bytes and isolated adapter
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: AliYa-chen/gtav-web-multiplayer-launcher
+          ref: ${{ env.UPSTREAM_COMMIT }}
+          path: upstream
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download verified first archive inside VM and test adapter
+        run: |
+          python -B multiplayer/ci.py prepare
+          python -B multiplayer/ci.py engine
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: PlayGTA5-engine-validation-report
+          path: dist/*.json
+          if-no-files-found: warn
+          retention-days: 7

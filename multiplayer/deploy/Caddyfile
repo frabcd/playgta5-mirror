@@ -1,0 +1,13 @@
+{$GAME_DOMAIN} {
+    handle /session/ws {
+        rewrite * /ws
+        reverse_proxy game:8787
+    }
+    handle /session/health {
+        rewrite * /health
+        reverse_proxy game:8787
+    }
+    handle {
+        respond "PlayGTA5 multiplayer: /session/health and /session/ws" 200
+    }
+}
