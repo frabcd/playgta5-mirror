@@ -97,6 +97,25 @@ def verify(root):
     return len(records)
 
 
+def open_game_browser(address):
+    if sys.platform == "darwin":
+        for name in ("Google Chrome", "Microsoft Edge"):
+            if any((base / (name + ".app")).is_dir() for base in (Path("/Applications"), Path.home() / "Applications")):
+                subprocess.run(["open", "-a", name, address], check=True)
+                return
+    elif os.name == "nt":
+        for base in ("LOCALAPPDATA", "PROGRAMFILES", "PROGRAMFILES(X86)"):
+            parent = os.environ.get(base)
+            if not parent:
+                continue
+            for relative in ("Google/Chrome/Application/chrome.exe", "Microsoft/Edge/Application/msedge.exe"):
+                exe = Path(parent) / relative
+                if exe.is_file():
+                    subprocess.Popen([str(exe), address], close_fds=True)
+                    return
+    webbrowser.open(address)
+
+
 def serve(game, port, no_open=False):
     mirror_host.ROOT = game.resolve()
     if not (game / "index.html").is_file():
@@ -106,7 +125,7 @@ def serve(game, port, no_open=False):
         print("PLAYGTA5_URL=" + address, flush=True)
         print("Keep this window open while playing. Ctrl+C stops this local server.", flush=True)
         if not no_open:
-            webbrowser.open(address)
+            open_game_browser(address)
         try:
             server.serve_forever()
         except KeyboardInterrupt:

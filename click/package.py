@@ -13,7 +13,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "click-dist"
-SOURCE_RUN = 39369607000
+SOURCE_RELEASE = 'launcher-v0.2.21'
 
 def run(*args):
     subprocess.run([str(x) for x in args], cwd=ROOT, check=True)
@@ -46,6 +46,7 @@ def main(platform):
         native_zip = ROOT / "native" / native_meta["file"]
         if digest(native_zip) != native_meta["sha256"]:
             raise ValueError("Native launcher artifact checksum mismatch")
+        (stage / "NATIVE-SOURCE.json").write_text(json.dumps(native_meta, indent=2) + "\n")
         native = stage / "multiplayer"
         native.mkdir()
         if platform == "macOS-arm64":
@@ -92,7 +93,7 @@ def main(platform):
             assert archive.testzip() is None
             assert not any(Path(n).suffix.lower() in (".wasm", ".rpf", ".gfx", ".pem", ".key") for n in archive.namelist())
         report = {"file": result.name, "bytes": result.stat().st_size, "sha256": digest(result),
-                  "native_source_run": SOURCE_RUN, "asset_archives": len(manifest["parts"]),
+                  "native_source_release": SOURCE_RELEASE, "asset_archives": len(manifest["parts"]),
                   "asset_download_bytes": sum(x["bytes"] for x in manifest["parts"]),
                   "installed_mirror_bytes": inventory["mirror_bytes"],
                   "game_assets_bundled": False, "python_install_required": False,

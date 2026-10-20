@@ -1,0 +1,25 @@
+{
+  "repository": "AliYa-chen/gtav-web-multiplayer-launcher",
+  "tag": "launcher-v0.2.21",
+  "commit": "9726fa0219120cafce8e26bc37eb3c01126df00e",
+  "assets": [
+    {
+      "name": "LICENSE",
+      "bytes": 1167,
+      "sha256": "3c1a2d621534463f8e116d662252fca9907a1088d06ddde6b82d2c4794284360",
+      "url": "https://github.com/AliYa-chen/gtav-web-multiplayer-launcher/releases/download/launcher-v0.2.21/LICENSE"
+    },
+    {
+      "name": "NOTICE.md",
+      "bytes": 2494,
+      "sha256": "a106fcfaa74fe93dccc0f90e95ea9efc03f9eaf867af9a2311d1975d021a7751",
+      "url": "https://github.com/AliYa-chen/gtav-web-multiplayer-launcher/releases/download/launcher-v0.2.21/NOTICE.md"
+    },
+    {
+      "name": "NOTICE.zh-CN.md",
+      "bytes": 2175,
+      "sha256": "6cc24d36a05cc0724daf26d38dc83d9b948c08dfde2c17adb05cb5ecf0f2e92e",
+      "url": "https://github.com/AliYa-chen/gtav-web-multiplayer-launcher/releases/download/launcher-v0.2.21/NOTICE.zh-CN.md"
+    }
+  ]
+}

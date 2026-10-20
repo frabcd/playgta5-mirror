@@ -10,7 +10,7 @@ MAC, APPLE SILICON:
 Double-click Play.command. This is a development-signed executable, not an Apple-notarized application. If macOS blocks it, review the source and use the normal per-application security approval. Do not disable system-wide security.
 
 FIRST LAUNCH:
-The launcher downloads every archive of the published browser snapshot, verifies archive/file SHA-256 hashes, extracts only the mirror files, then opens a local game menu. No Python installation, Node, Rust or Java is required. A current Chrome/Edge browser is required separately.
+The launcher downloads every archive of the published browser snapshot, verifies archive/file SHA-256 hashes, extracts only the mirror files, then opens a local game menu. No Python installation, Node, Rust or Java is required. A current Chrome/Edge browser is required separately. The launcher prefers an installed Chrome or Edge and otherwise opens the default browser.
 
 Download: approximately 21.2 GB.
 Installed mirror: 21,158,604,965 bytes, 12,482 files.
@@ -45,5 +45,5 @@ Mirror and release provider: https://github.com/alihammoud21/playgta5
 User mirror: https://github.com/frabcd/playgta5-mirror
 Multiplayer launcher: https://github.com/AliYa-chen/gtav-web-multiplayer-launcher
 Upstream project website: https://gtav.2t.hk/
-Preserve notices/ and multiplayer legal notices. The Python runtime and PyInstaller license notices accompany the executable.
+Preserve notices/ and multiplayer legal notices. The Python runtime and PyInstaller license notices accompany the executable. NATIVE-SOURCE.json records the compatible upstream release and verified asset hashes. Rebuilding does not depend on expiring CI artifacts.
 Game content remains separately owned; this ZIP includes installer/launcher software and does not repackage the proprietary game files.
