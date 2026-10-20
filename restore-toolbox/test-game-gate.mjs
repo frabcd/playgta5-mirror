@@ -14,6 +14,9 @@ assert.equal((await run(new Request(origin+'/calculator/gta-v/frame'))).status,3
 assert.equal((await run(new Request(origin+'/chunk-index.js'))).status,401);
 const response=await run(login(process.env.GTA_PASSWORD));
 assert.equal(response.status,200);
+const native=await run(new Request(origin+'/api/game-unlock',{method:'POST',headers:{Origin:origin,'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({password:process.env.GTA_PASSWORD})}));
+assert.equal(native.status,303);
+assert.equal(native.headers.get('Location'),origin+'/calculator/gta-v/play');
 const cookie=response.headers.get('Set-Cookie');
 assert.match(cookie,/Path=\/; Max-Age=28800; HttpOnly; Secure; SameSite=Strict/);
 const session=cookie.split(';')[0];

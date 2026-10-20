@@ -18,10 +18,10 @@ if(url.pathname==='/api/game-unlock'){
  if(request.method!=='POST')return new Response('Method not allowed',{status:405});
  if(request.headers.get('Origin')!==url.origin)return new Response('Forbidden',{status:403});
  if(Number(request.headers.get('Content-Length')||0)>2048)return new Response('Too large',{status:413});
- let body;try{body=await request.json();}catch{return new Response('Invalid request',{status:400});}
+ const json=(request.headers.get('Content-Type')||'').includes('application/json');let body;try{body=json?await request.json():Object.fromEntries(await request.formData());}catch{return new Response('Invalid request',{status:400});}
  if(!await passwordMatches(body.password))return new Response('Incorrect password',{status:401,headers:privateHeaders()});
  const expiry=String(Date.now()+8*60*60*1000),token=expiry+'.'+await sign(expiry);
- return new Response('OK',{headers:privateHeaders({'Set-Cookie':'fran_game_session='+token+'; Path=/; Max-Age=28800; HttpOnly; Secure; SameSite=Strict'})});
+ return new Response(json?'OK':null,{status:json?200:303,headers:privateHeaders({'Set-Cookie':'fran_game_session='+token+'; Path=/; Max-Age=28800; HttpOnly; Secure; SameSite=Strict',...(json?{}:{Location:url.origin+'/calculator/gta-v/play'})})});
 }
 if(url.pathname==='/calculator/gta-v/play'){
  if(!await authenticated(request))return Response.redirect(url.origin+'/calculator/gta-v/',303);

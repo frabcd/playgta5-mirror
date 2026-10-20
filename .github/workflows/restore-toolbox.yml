@@ -41,6 +41,7 @@ jobs:
           import shutil
           shutil.copyfile('restore-toolbox/build-game-gate.mjs','toolbox/scripts/build-game-gate.mjs')
           shutil.copyfile('restore-toolbox/test-game-gate.mjs','toolbox/scripts/test-game-gate.mjs')
+          shutil.copyfile('restore-toolbox/gta-login.html','toolbox/public/gta-login.html')
           PY
       - name: Build and typecheck restored site inside VM
         working-directory: toolbox
