@@ -4,13 +4,13 @@ This integration reuses the MIT-licensed [GTAV Web Multiplayer Launcher](https:/
 
 ## Build isolation and downloads
 
-The Multiplayer workflow builds Windows x64 and macOS Apple Silicon clients in separate disposable GitHub-hosted VMs. A Linux VM compiles and exercises the Java server with eight independent protocol clients and builds its container. Another Linux VM downloads only the first mirror archive to verify real engine bytes and build the adapted runtime outside its resource directory.
+The Multiplayer workflow builds Windows x64 and macOS Apple Silicon clients in separate disposable GitHub-hosted VMs. A Linux VM compiles and exercises the Java server with eight independent protocol clients and builds its container. That Linux VM also downloads four verified mirror archives, extracts only required engine/character inputs, generates mandatory character collision data and builds the adapted runtime outside its resource directory.
 
 Open this repository's Actions tab, choose "Multiplayer - isolated Windows, Mac and server builds", and download completed run artifacts:
 - PlayGTA5-Multiplayer-Windows-x64: portable EXE package, notices, provenance, size and SHA-256.
 - PlayGTA5-Multiplayer-macOS-arm64: development App ZIP, notices, provenance, size and SHA-256.
 - PlayGTA5-Multiplayer-server: standalone Java 17 JAR, deployment files and protocol-check report.
-- PlayGTA5-engine-validation-report: hashes and adapter validation only; no game assets.
+The server artifact includes engine-validation.json with hashes and adapter checks; no game assets or derived geometry are uploaded.
 
 Artifacts expire after seven days. Pushing integration changes or using Run workflow rebuilds them. Builds do not publish releases, contact production servers, install tools on the user's PC, or include game data. The workflow does not run upstream's deployment workflow.
 
@@ -35,10 +35,21 @@ Run these commands on a remote Linux VM with Docker Engine and Compose, not on t
 1. Extract the server package and enter its deploy folder.
 2. Point your domain's DNS to that VM. Allow inbound TCP 80 and 443 for trusted HTTPS; keep the Java port private.
 3. Copy .env.example to .env and set GAME_DOMAIN to the real hostname.
-4. Ensure the world-data directory exists. Install separately generated compatible collision/navigation files there if available; the mount is read-only. Empty data starts a protocol-capable server with limited world simulation, not full gameplay readiness.
+4. Generate the mandatory character collision data using the container commands below. Install separately generated static collision/navigation data for local world coverage. The server refuses player joins without compatible ped-collision.json; a healthy HTTP endpoint alone does not establish readiness.
 5. Run docker compose config, then docker compose up -d --build.
 6. Check docker compose ps and https://YOUR-DOMAIN/session/health. Confirm the actual server version and loaded world-data capabilities, not just HTTP 200.
 7. Give friends wss://YOUR-DOMAIN/session/ws. The packaged launcher serves local assets; this deployment hosts only multiplayer state.
+
+Generate character collision data on that remote VM, using a compatible resource folder available there (never mount a resource folder as writable):
+
+\`\`\`sh
+mkdir -p world-data
+docker build --target world-data-export -t playgta5-world-data .
+# Set RESOURCE_ROOT to the absolute mirror/playgta5.com folder on the remote VM.
+docker run --rm --user "$(id -u):$(id -g)" -v "$RESOURCE_ROOT:/resources:ro" -v "$PWD/world-data:/output" playgta5-world-data
+\`\`\`
+
+The exporter verifies the source engine/assets and writes derived data only to world-data. This setup does not distribute game-derived geometry. The automated VM validation independently exercises the same exporter using selected inputs from verified release archives.
 
 One Java process is one session capped at eight players. The container starts with a 512 MiB maximum Java heap and a 768 MiB container memory limit; provision an initial 2 vCPU / 2 GB RAM VM and measure before scaling. World state is in memory and resets on restart. No database, accounts, rewards or progression are added.
 
@@ -58,7 +69,7 @@ Current upstream limits include experimental synchronization, eight players, 256
 
 Mirror data: 21.16 GB decimal / approximately 19.71 GiB per player. Mirror installation guidance allows 25 GB free, or 45 GB when keeping archives. Allow 35 GB initially for local data, caches and launcher headroom; actual launcher ZIP sizes are recorded in the build artifacts.
 
-There is no host-machine game download during the hosted build. The engine verification VM downloads about 1.61 GB temporarily and discards original/derived engine files when the VM is destroyed.
+There is no host-machine game download during the hosted build. The server verification VM downloads about 5.34 GB across parts 01, 12, 13 and 14 temporarily and discards original/derived engine files when the VM is destroyed.
 
 Network planning assumption, not measured throughput: 25-100 KB/s outbound per connected player means 1.6-6.4 Mbps for eight players, or 0.72-2.88 GB per full-session hour. Players serve assets locally, so game asset downloads do not pass through the multiplayer VPS.
 

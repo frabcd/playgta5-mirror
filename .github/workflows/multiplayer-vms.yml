@@ -81,7 +81,7 @@ jobs:
   server:
     name: Server - eight-client protocol and container checks
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -104,12 +104,14 @@ jobs:
         run: |
           python -B multiplayer/ci.py prepare
           python -B upstream/tools/build_multiplayer_server.py
+      - name: Generate isolated adapter and required character collision data from verified mirror files
+        run: python -B multiplayer/ci.py engine
       - name: Verify eight independent connections, snapshots and heartbeat
         run: python -B multiplayer/ci.py smoke
       - name: Build and exercise isolated server container
         run: |
           docker build -f multiplayer/deploy/Dockerfile --build-arg UPSTREAM_COMMIT="$UPSTREAM_COMMIT" -t playgta5-multiplayer:ci .
-          docker run -d --name multiplayer-check -p 127.0.0.1:18787:8787 playgta5-multiplayer:ci
+          docker run -d --name multiplayer-check -p 127.0.0.1:18787:8787 -v "$PWD/.vm-world-data:/app/world-data:ro" playgta5-multiplayer:ci
           node multiplayer/smoke.mjs http://127.0.0.1:18787
       - name: Validate deployment configuration
         working-directory: multiplayer/deploy
@@ -126,32 +128,5 @@ jobs:
         with:
           name: PlayGTA5-Multiplayer-server
           path: dist/*
-          if-no-files-found: warn
-          retention-days: 7
-
-  engine:
-    name: Engine - verify real mirror bytes and isolated adapter
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
-        with:
-          repository: AliYa-chen/gtav-web-multiplayer-launcher
-          ref: ${{ env.UPSTREAM_COMMIT }}
-          path: upstream
-          persist-credentials: false
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Download verified first archive inside VM and test adapter
-        run: |
-          python -B multiplayer/ci.py prepare
-          python -B multiplayer/ci.py engine
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: PlayGTA5-engine-validation-report
-          path: dist/*.json
           if-no-files-found: warn
           retention-days: 7

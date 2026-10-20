@@ -128,6 +128,7 @@ def smoke():
         process = subprocess.Popen([
             "java", "-Xms64m", "-Xmx512m", "-jar", str(UP / "server/multiplayer-server.jar"),
             "--host", "127.0.0.1", "--port", "18787", "--max-clients", "8",
+            "--world-data", str(ROOT / ".vm-world-data"),
         ], stdout=output, stderr=subprocess.STDOUT, cwd=UP)
         try:
             run("node", ROOT / "multiplayer/smoke.mjs", "http://127.0.0.1:18787",
@@ -143,30 +144,37 @@ def smoke():
 
 def engine():
     manifest = json.loads((ROOT / "download-manifest.json").read_text())
-    part = next(p for p in manifest["parts"] if p["name"] == LOCK["engine_files"][0]["part"])
-    if part["sha256"] != "343823558ae497201db673fbc40e496b3db440f1dbdfaab40da1a0766759854f":
-        raise ValueError("Original release archive identity changed")
+    records = LOCK["engine_files"] + LOCK["ped_inputs"]
     with tempfile.TemporaryDirectory(prefix="mirror-engine-validation-") as temporary:
         temp = Path(temporary)
-        archive = temp / "first-part.zip"
-        request = urllib.request.Request(part["url"], headers={"User-Agent": "PlayGTA5-VM-validation"})
-        with urllib.request.urlopen(request, timeout=120) as response, archive.open("wb") as target:
-            shutil.copyfileobj(response, target, length=1024 * 1024)
-        if archive.stat().st_size != part["bytes"] or digest(archive) != part["sha256"]:
-            raise ValueError("Download size/checksum verification failed")
         game = temp / "resources"
         game.mkdir()
         before = {}
-        with zipfile.ZipFile(archive) as z:
-            for record in LOCK["engine_files"]:
-                relative = Path(record["path"]).relative_to("mirror/playgta5.com")
-                destination = game / relative
-                destination.parent.mkdir(parents=True, exist_ok=True)
-                with z.open(record["path"]) as source, destination.open("wb") as target:
-                    shutil.copyfileobj(source, target)
-                if destination.stat().st_size != record["bytes"] or digest(destination) != record["sha256"]:
-                    raise ValueError("Engine file failed published inventory verification")
-                before[str(relative)] = digest(destination)
+        for part_name in sorted({r["part"] for r in records}):
+            part = next(p for p in manifest["parts"] if p["name"] == part_name)
+            archive = temp / part_name
+            print("Downloading and verifying " + part_name, flush=True)
+            request = urllib.request.Request(part["url"], headers={"User-Agent": "PlayGTA5-VM-validation"})
+            with urllib.request.urlopen(request, timeout=120) as response, archive.open("wb") as target:
+                shutil.copyfileobj(response, target, length=1024 * 1024)
+            if archive.stat().st_size != part["bytes"] or digest(archive) != part["sha256"]:
+                raise ValueError("Download size/checksum verification failed")
+            with zipfile.ZipFile(archive) as z:
+                for record in (r for r in records if r["part"] == part_name):
+                    relative = Path(record["path"]).relative_to("mirror/playgta5.com")
+                    destination = game / relative
+                    destination.parent.mkdir(parents=True, exist_ok=True)
+                    with z.open(record["path"]) as source, destination.open("wb") as target:
+                        shutil.copyfileobj(source, target)
+                    if destination.stat().st_size != record["bytes"] or digest(destination) != record["sha256"]:
+                        raise ValueError("Engine/source file failed published inventory verification")
+                    before[str(relative)] = digest(destination)
+            archive.unlink()
+        world = ROOT / ".vm-world-data"
+        world.mkdir(exist_ok=True)
+        run(sys.executable, "-B", UP / "tools/export_ped_collision.py",
+            "--data", game / "data", "--wasm", game / "b/8b0b5899ed/game.wasm",
+            "--output", world / "ped-collision.json")
         runtime = temp / "isolated-runtime"
         run(sys.executable, "-B", UP / "tools/build_multiplayer_client.py",
             "--game-dir", game, "--runtime-dir", runtime)
@@ -176,7 +184,8 @@ def engine():
         if digest(runtime / "offline/game.wasm") != LOCK["original_wasm_sha256"]:
             raise ValueError("Offline copy differs from original")
         report = {
-            "archive_sha256_verified": True, "engine_files_verified": len(before),
+            "archive_sha256_verified": True, "source_files_verified": len(before),
+            "ped_collision_models": len(json.loads((world / "ped-collision.json").read_text())["models"]),
             "original_resources_unchanged": before == after,
             "offline_bytes": (runtime / "offline/game.wasm").stat().st_size,
             "online_bytes": (runtime / "online/game.wasm").stat().st_size,

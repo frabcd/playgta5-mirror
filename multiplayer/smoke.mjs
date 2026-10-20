@@ -43,7 +43,8 @@ try {
             assert.equal(message.server_version, initial.server_version);
             ws.send(JSON.stringify({ type: 'hello', name: 'VM player ' + (index + 1),
               capabilities: ['combat', 'resume', 'world_v2', 'heartbeat', 'entity_batch',
-                'world_environment', 'shared_law', 'server_ai', 'session_policy', 'physics_queries'] }));
+                'world_environment', 'shared_law', 'server_ai', 'session_policy', 'physics_queries',
+                'equipment_v1', 'ped_pose', 'actions_v2'] }));
           } else if (message.type === 'profile') {
             assert.equal(typeof message.client_id, 'string');
             assert.equal(typeof message.entity_id, 'string');

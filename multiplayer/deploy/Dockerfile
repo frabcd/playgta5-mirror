@@ -1,12 +1,16 @@
 # Build/run only on a remote VM or hosted CI runner.
 FROM eclipse-temurin:17-jdk-jammy AS build
 ARG UPSTREAM_COMMIT=9726fa0219120cafce8e26bc37eb3c01126df00e
-RUN apt-get update && apt-get install -y --no-install-recommends git python3 ca-certificates && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends git python3 libzstd1 ca-certificates && rm -rf /var/lib/apt/lists/*
 WORKDIR /source
 RUN git init && git remote add origin https://github.com/AliYa-chen/gtav-web-multiplayer-launcher.git && git fetch --depth=1 origin "$UPSTREAM_COMMIT" && git checkout --detach FETCH_HEAD && test "$(git rev-parse HEAD)" = "$UPSTREAM_COMMIT"
 RUN python3 -B tools/build_multiplayer_server.py
 
-FROM eclipse-temurin:17-jre-jammy
+FROM build AS world-data-export
+ENTRYPOINT ["python3", "-B", "/source/tools/export_ped_collision.py"]
+CMD ["--data", "/resources/data", "--wasm", "/resources/b/8b0b5899ed/game.wasm", "--output", "/output/ped-collision.json"]
+
+FROM eclipse-temurin:17-jre-jammy AS runtime
 RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates && rm -rf /var/lib/apt/lists/* && groupadd --gid 10001 game && useradd --uid 10001 --gid game --no-create-home game
 WORKDIR /app
 COPY --from=build /source/server/multiplayer-server.jar /app/multiplayer-server.jar
