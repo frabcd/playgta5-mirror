@@ -9,8 +9,8 @@ RUN git init && git remote add origin https://github.com/AliYa-chen/gtav-web-mul
 RUN python3 -B tools/build_multiplayer_server.py
 
 FROM build AS world-data-export
-ENTRYPOINT ["python3", "-B", "/source/tools/export_ped_collision.py"]
-CMD ["--data", "/resources/data", "--wasm", "/resources/b/8b0b5899ed/game.wasm", "--output", "/output/ped-collision.json"]
+ENTRYPOINT ["sh", "-ec", "python3 -B /source/tools/export_ped_collision.py --data /resources/data --wasm /resources/b/8b0b5899ed/game.wasm --output /output/ped-collision.json && chmod 0644 /output/ped-collision.json /output/ped-collision.meta.json"]
+CMD []
 
 FROM eclipse-temurin:17-jre-jammy AS runtime
 RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates && rm -rf /var/lib/apt/lists/* && groupadd --gid 10001 game && useradd --uid 10001 --gid game --no-create-home game

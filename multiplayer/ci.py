@@ -175,6 +175,9 @@ def engine():
         run(sys.executable, "-B", UP / "tools/export_ped_collision.py",
             "--data", game / "data", "--wasm", game / "b/8b0b5899ed/game.wasm",
             "--output", world / "ped-collision.json")
+        # Atomic exporter outputs default to owner-only; the runtime uses a separate UID.
+        for derived in world.glob("*.json"):
+            derived.chmod(0o644)
         runtime = temp / "isolated-runtime"
         run(sys.executable, "-B", UP / "tools/build_multiplayer_client.py",
             "--game-dir", game, "--runtime-dir", runtime)
