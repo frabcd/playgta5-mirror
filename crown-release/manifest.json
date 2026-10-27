@@ -1,0 +1,3876 @@
+{
+  "url": "https://fran-abcd-abcd.pages.dev/crown-clash/",
+  "bundleSha256": "d2c16b563b0132e6a46416dfa17f69888442b72f96ad4ab7db18cb7248dce773",
+  "originals": [
+    {
+      "path": "_next/static/chunks/04e19wy9u9e7y.js",
+      "sha256": "1bf69766b844c9cb67d47abae666a0e18268fa6fa04d2e34d343c55606445b69",
+      "bytes": 37097
+    },
+    {
+      "path": "_next/static/chunks/0cz1d0mv5g_q7.js",
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "bytes": 112594
+    },
+    {
+      "path": "_next/static/chunks/0nvnz_nryu_85.css",
+      "sha256": "ac66d92db9e18007394708592a7b596e950f6f66e11dfaf5420b7986c98be934",
+      "bytes": 63554
+    },
+    {
+      "path": "_next/static/chunks/19mx3mg6lkumu.js",
+      "sha256": "170f3982866674a829571beec30cc23c69fcd36196739ff34b9d586b3ad73cd7",
+      "bytes": 28907
+    },
+    {
+      "path": "_next/static/chunks/1eh83f1trsv72.js",
+      "sha256": "215f97dd122d9229d886c8936d352dd7ae310d1cb54d2df2e473daffde3b56b9",
+      "bytes": 165160
+    },
+    {
+      "path": "_next/static/chunks/1rzgndl1t2vin.js",
+      "sha256": "a497add6f50008339b34fb42edae97e32d83ade2320bd36163aab97bac725abd",
+      "bytes": 24217
+    },
+    {
+      "path": "_next/static/chunks/1wcjrzvlsr3-_.css",
+      "sha256": "754d09a175eaf5b8386da79cdcf612e2a7c3de30b2b4a8438924cc6070cb6cd8",
+      "bytes": 7622
+    },
+    {
+      "path": "_next/static/chunks/20bjp-4m-ncfo.js",
+      "sha256": "f8de3808217817fb2ffb67eaf8cccd941c36f692363c407c58d628bad667495b",
+      "bytes": 14068
+    },
+    {
+      "path": "_next/static/chunks/2eq0sjbf9pj49.js",
+      "sha256": "bcffbd1a7613b952f043e170773b8541140ba3464031e90a0c997e76191ccf5f",
+      "bytes": 28343
+    },
+    {
+      "path": "_next/static/chunks/372f3zpj0bvm8.js",
+      "sha256": "af8b4d10c2852c088f45654a5f78c83e46ddaed9047aee0e2ac8df47a19180d6",
+      "bytes": 347505
+    },
+    {
+      "path": "_next/static/chunks/3eghy1z8rsx6t.css",
+      "sha256": "bfbcbc7b6036cc58e2569f6b9b9a9f9fc7a5662d3472efe909802248888cdfc9",
+      "bytes": 4894
+    },
+    {
+      "path": "_next/static/chunks/3fntmmi971322.js",
+      "sha256": "34ed6abf4c6d0d1bb3dc56d3f133d2a5dbc3a3c89c791deab314e27143ac14ce",
+      "bytes": 14377
+    },
+    {
+      "path": "_next/static/chunks/3kmozkq6tgqnz.js",
+      "sha256": "5041f52530a4c19c096ff1fd24f890f17301ade46cf0b21a3a4f5b20d024eca4",
+      "bytes": 228922
+    },
+    {
+      "path": "_next/static/chunks/3s6nzrbk-8mnv.js",
+      "sha256": "1d36f2e3f57740f75eb021aaec1208d7e938130e36c106a9f28678e4a98559b0",
+      "bytes": 5598
+    },
+    {
+      "path": "_next/static/chunks/3yffaf1bri3f8.css",
+      "sha256": "4356a572e70c6ba0fa3e47d8373b6693ff35dede313765609b42916271e14b5a",
+      "bytes": 22543
+    },
+    {
+      "path": "_next/static/chunks/turbopack-0ewssgmc2dw5s.js",
+      "sha256": "b9b97621260c74d6af850269deb1490301c085ad24917ebcea01505254d786f3",
+      "bytes": 9721
+    },
+    {
+      "path": "_next/static/hvqnRSj6XzLCmAec2_yGO/_buildManifest.js",
+      "sha256": "9476e0afd3f9da68a64e6ec58631191fd3eaca62c9f5a377e7517fe9a89e59ea",
+      "bytes": 219
+    },
+    {
+      "path": "_next/static/hvqnRSj6XzLCmAec2_yGO/_clientMiddlewareManifest.js",
+      "sha256": "5483e3295dc35dfe29ea932efc85341c916f10ff78ff5b0e965e003710893a4a",
+      "bytes": 96
+    },
+    {
+      "path": "_next/static/hvqnRSj6XzLCmAec2_yGO/_ssgManifest.js",
+      "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00",
+      "bytes": 80
+    },
+    {
+      "path": "_next/static/media/icon.1eu6q4ec-f-yt.svg",
+      "sha256": "93ef4d85d4cad9a2f11d7546dcaba5234453b916e8c741456e3c69326205e01b",
+      "bytes": 472
+    },
+    {
+      "path": "_not-found/__next._full.txt",
+      "sha256": "91d3ae1ac6b4e33cb7df4c51954085f24d78ccd3c05a0e6dd6f9b3cbd25753eb",
+      "bytes": 5184
+    },
+    {
+      "path": "_not-found/__next._tree.txt",
+      "sha256": "4e1bf7ef50ce3bea9b48853af514fc8a5902668688f615ecca8dd1ee65a74b5d",
+      "bytes": 327
+    },
+    {
+      "path": "_not-found/__next._not-found/__PAGE__.txt",
+      "sha256": "a0d168282ff82f10a9fba355ce38e23ef51af54228df9d4a6fe9d3f6a8c4e337",
+      "bytes": 4290
+    },
+    {
+      "path": "calculator/__next._full.txt",
+      "sha256": "39d6020c89ca43521df112b707bee9cb965b1441cb5e5781d86b8fe834b50908",
+      "bytes": 4499
+    },
+    {
+      "path": "calculator/__next._tree.txt",
+      "sha256": "c3d11245c9c55bf2f7035b4a46aea24a629711f10fb1c4b182b403a558713ec7",
+      "bytes": 380
+    },
+    {
+      "path": "calculator/games-career.html",
+      "sha256": "926a2798581b23e9008b38f2431c112dd655977099272facb45cea54ba983a72",
+      "bytes": 10019
+    },
+    {
+      "path": "calculator/games-career.txt",
+      "sha256": "c449f7dd427b06c1c72bbf4c45a2fbce41c0dafa14cf801e8ec19e06651c0d88",
+      "bytes": 5546
+    },
+    {
+      "path": "calculator/games-career/__next._full.txt",
+      "sha256": "c449f7dd427b06c1c72bbf4c45a2fbce41c0dafa14cf801e8ec19e06651c0d88",
+      "bytes": 5546
+    },
+    {
+      "path": "calculator/games-career/__next._tree.txt",
+      "sha256": "3287294c041baebcc9d07b286a408e7f317de5e0c3b8c87ac5226edfab88a6d2",
+      "bytes": 513
+    },
+    {
+      "path": "calculator/games-career/__next.calculator/games-career/__PAGE__.txt",
+      "sha256": "3b79ca2b631f2a1a25b7270ecbbf475d0abf5756fa57cecff11ddfc4b71a914c",
+      "bytes": 4454
+    },
+    {
+      "path": "calculator/__next.calculator/__PAGE__.txt",
+      "sha256": "beba0b5ff9e2565297fa6660edb02da079055baedcd08f0cb3c90a6aede2652b",
+      "bytes": 3715
+    },
+    {
+      "path": "images/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "notes/__next._full.txt",
+      "sha256": "f2d46aefaa1fc7658ef70e7abc7b97ca14bb19fd3f5727486ae5d7e89be2cd63",
+      "bytes": 4483
+    },
+    {
+      "path": "notes/__next._tree.txt",
+      "sha256": "a8010101b509c2d3555a0206afc972973db0e7f71b885a160eb59a06103c8c19",
+      "bytes": 375
+    },
+    {
+      "path": "notes/games-career.html",
+      "sha256": "da6e50f6de290af6c39613fa754cd15ec061351e431f6e2fbcc4cfda1febe772",
+      "bytes": 9999
+    },
+    {
+      "path": "notes/games-career.txt",
+      "sha256": "0e69cf2de36e1497f5dcf64f2717e2e66514d6d1291e7eafe1b522c6e63c58ea",
+      "bytes": 5531
+    },
+    {
+      "path": "notes/games-career/__next._full.txt",
+      "sha256": "0e69cf2de36e1497f5dcf64f2717e2e66514d6d1291e7eafe1b522c6e63c58ea",
+      "bytes": 5531
+    },
+    {
+      "path": "notes/games-career/__next._tree.txt",
+      "sha256": "1d41e8534260744a0cfcff85e1408b94e9a7e9ec6bef94408f15d53f136092f7",
+      "bytes": 508
+    },
+    {
+      "path": "notes/games-career/__next.notes/games-career/__PAGE__.txt",
+      "sha256": "b5860fc09d9e701911b0610690054da143ac48d4e364c1bb73f57eaae97fb61c",
+      "bytes": 4449
+    },
+    {
+      "path": "notes/__next.notes/__PAGE__.txt",
+      "sha256": "6ac9efe6415d7a47754aa9bffc9ab5e275bccbcdd241ff6f08efe0567dba0bce",
+      "bytes": 3709
+    },
+    {
+      "path": "seo/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "sites/lanqiushengya/bilibili.jpg",
+      "sha256": "75239ab202e94008086371adacb95c3fdb53a5696a0b849f305f0ae4db2cedbb",
+      "bytes": 67363
+    },
+    {
+      "path": "sites/lanqiushengya/channels.jpg",
+      "sha256": "d6725c863be811ddd05f88ab8a6eb69d53ea5539fbff175621e7167c6b641827",
+      "bytes": 16697
+    },
+    {
+      "path": "sites/lanqiushengya/douyin.jpg",
+      "sha256": "eafe8ed6943c45c2eaf11cd3aa136698a7cb19912e057461fe562195c5170f63",
+      "bytes": 77293
+    },
+    {
+      "path": "sites/lanqiushengya/pixel.woff2",
+      "sha256": "926fc7e7f1ee0a7badaea7988d205c80a423280d8da0fb59a9deb0d322402f5a",
+      "bytes": 841872
+    },
+    {
+      "path": "sites/lanqiushengya/portrait.png",
+      "sha256": "6eaae5bf162ae004e4090e0af13e492215d2526696a6fbf31ffbf9f18f524390",
+      "bytes": 1498128
+    },
+    {
+      "path": "timer/__next._full.txt",
+      "sha256": "e835b7b9e4f402d16dd99a1397c5645f5bd092cce71781a25bff35d7195cf16d",
+      "bytes": 4486
+    },
+    {
+      "path": "timer/__next._tree.txt",
+      "sha256": "c03bc69d736f3fab76833d133f1d024f9224c117fd9bc6eb4561136f8325bdaa",
+      "bytes": 375
+    },
+    {
+      "path": "timer/games-career.html",
+      "sha256": "49d5236082a39b48baeabebafb245e39b71bfd5930ce7053695b01156d49a189",
+      "bytes": 10005
+    },
+    {
+      "path": "timer/games-career.txt",
+      "sha256": "fd80af4332e08832e171a77d7ec9c1aeeef3df4e2fb12106697dbd83725c174b",
+      "bytes": 5534
+    },
+    {
+      "path": "timer/games-career/__next._full.txt",
+      "sha256": "fd80af4332e08832e171a77d7ec9c1aeeef3df4e2fb12106697dbd83725c174b",
+      "bytes": 5534
+    },
+    {
+      "path": "timer/games-career/__next._tree.txt",
+      "sha256": "f7f214ad8e368a3053a59afa2317f9d610290d50f95cf74d559153598f1d9d21",
+      "bytes": 508
+    },
+    {
+      "path": "timer/games-career/__next.timer/games-career/__PAGE__.txt",
+      "sha256": "ff41a19c6776de3373e2b858f2d4c40ba2a5cecc71494b4f9f539e0a479b70ca",
+      "bytes": 4452
+    },
+    {
+      "path": "timer/__next.timer/__PAGE__.txt",
+      "sha256": "f9dcda173cf2c97eb7b0bd5c019c0bfd9f8fc9a9b07a7ecdd44a7133a8ffb99f",
+      "bytes": 3712
+    },
+    {
+      "path": "videos/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "wheel/__next._full.txt",
+      "sha256": "6f03ff0d32c9e9e7db4a5c40faf4978b1c48966aa54309833bef448f41d77053",
+      "bytes": 4483
+    },
+    {
+      "path": "wheel/__next._tree.txt",
+      "sha256": "40a6f9ef7a536e8b6a5b1b1040a03ce878be55a1580f4acae28b40fef1c13e36",
+      "bytes": 375
+    },
+    {
+      "path": "wheel/games-career.html",
+      "sha256": "adc4b3e1564b1833d93fe5eb7663a98b295becdcae772930d290b827ddc0f44b",
+      "bytes": 9999
+    },
+    {
+      "path": "wheel/games-career.txt",
+      "sha256": "b45583328c19a270cceccb2d30657ed2d45b25a80458289830b720520d6ff19c",
+      "bytes": 5531
+    },
+    {
+      "path": "wheel/games-career/__next._full.txt",
+      "sha256": "b45583328c19a270cceccb2d30657ed2d45b25a80458289830b720520d6ff19c",
+      "bytes": 5531
+    },
+    {
+      "path": "wheel/games-career/__next._tree.txt",
+      "sha256": "541671560a8ff24e54e7e2c697fd4357e7cc8c6fe7acb55b49ba5956ccfe6d40",
+      "bytes": 508
+    },
+    {
+      "path": "wheel/games-career/__next.wheel/games-career/__PAGE__.txt",
+      "sha256": "660fd8e5b2fb3f7e5952ddf73b01fab5a3c3d7dc530c027f55d7e64ddb42335e",
+      "bytes": 4449
+    },
+    {
+      "path": "wheel/__next.wheel/__PAGE__.txt",
+      "sha256": "dfd4fee60dbba2acb5beeab6e6d58da6fd36ee784f94dd9c6b78e8f29cf03efc",
+      "bytes": 3709
+    },
+    {
+      "path": "__next.__PAGE__.txt",
+      "sha256": "7e753faa1017ba47538d59e4136acc95ae5a12d203bf16fa4b8ccaa6729046ef",
+      "bytes": 7352
+    },
+    {
+      "path": "__next._full.txt",
+      "sha256": "5c73a2b1fe65fc18f2497e2cd0e69f3b028d9df3b43be97edab492e9c7295501",
+      "bytes": 7948
+    },
+    {
+      "path": "__next._tree.txt",
+      "sha256": "ca78ac532ede37379d7edd9ae39fbe776d9cda13fb86f92bc7ac037cc311a154",
+      "bytes": 303
+    },
+    {
+      "path": "_not-found.html",
+      "sha256": "6711da4fdfa0e06b3e9710b34d111692902aa1c609aa0aa40ea04f27f09f3cd4",
+      "bytes": 8037
+    },
+    {
+      "path": "_not-found.txt",
+      "sha256": "91d3ae1ac6b4e33cb7df4c51954085f24d78ccd3c05a0e6dd6f9b3cbd25753eb",
+      "bytes": 5184
+    },
+    {
+      "path": "404.html",
+      "sha256": "6711da4fdfa0e06b3e9710b34d111692902aa1c609aa0aa40ea04f27f09f3cd4",
+      "bytes": 8037
+    },
+    {
+      "path": "calculator.html",
+      "sha256": "79b8d643c86812613b5b0b4ce1bd373e02c2686441fee6556bdf528e98c4800c",
+      "bytes": 9787
+    },
+    {
+      "path": "calculator.txt",
+      "sha256": "39d6020c89ca43521df112b707bee9cb965b1441cb5e5781d86b8fe834b50908",
+      "bytes": 4499
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "93ef4d85d4cad9a2f11d7546dcaba5234453b916e8c741456e3c69326205e01b",
+      "bytes": 472
+    },
+    {
+      "path": "index.html",
+      "sha256": "7581bd85b718aac0c511c504c26c2aaa1bfd987641c687e75e56afe199283a59",
+      "bytes": 13009
+    },
+    {
+      "path": "index.txt",
+      "sha256": "5c73a2b1fe65fc18f2497e2cd0e69f3b028d9df3b43be97edab492e9c7295501",
+      "bytes": 7948
+    },
+    {
+      "path": "notes.html",
+      "sha256": "9b34f9623220e0e55c4e401f11510cb1462233e8499a8abad8c723186d484b9c",
+      "bytes": 8243
+    },
+    {
+      "path": "notes.txt",
+      "sha256": "f2d46aefaa1fc7658ef70e7abc7b97ca14bb19fd3f5727486ae5d7e89be2cd63",
+      "bytes": 4483
+    },
+    {
+      "path": "timer.html",
+      "sha256": "136367e33ad7f4a020f3f63896bcc2e7674baecc8670481f998496f4af6213cc",
+      "bytes": 8785
+    },
+    {
+      "path": "timer.txt",
+      "sha256": "e835b7b9e4f402d16dd99a1397c5645f5bd092cce71781a25bff35d7195cf16d",
+      "bytes": 4486
+    },
+    {
+      "path": "wheel.html",
+      "sha256": "cb48f46390f44005d6307ba58f606055a3997e42d045946e13e61db9f23a918f",
+      "bytes": 8539
+    },
+    {
+      "path": "wheel.txt",
+      "sha256": "6f03ff0d32c9e9e7db4a5c40faf4978b1c48966aa54309833bef448f41d77053",
+      "bytes": 4483
+    }
+  ],
+  "files": [
+    {
+      "path": "404.html",
+      "sha256": "6711da4fdfa0e06b3e9710b34d111692902aa1c609aa0aa40ea04f27f09f3cd4"
+    },
+    {
+      "path": "__next.__PAGE__.txt",
+      "sha256": "7e753faa1017ba47538d59e4136acc95ae5a12d203bf16fa4b8ccaa6729046ef"
+    },
+    {
+      "path": "__next._full.txt",
+      "sha256": "5c73a2b1fe65fc18f2497e2cd0e69f3b028d9df3b43be97edab492e9c7295501"
+    },
+    {
+      "path": "__next._tree.txt",
+      "sha256": "ca78ac532ede37379d7edd9ae39fbe776d9cda13fb86f92bc7ac037cc311a154"
+    },
+    {
+      "path": "_next/static/chunks/04e19wy9u9e7y.js",
+      "sha256": "1bf69766b844c9cb67d47abae666a0e18268fa6fa04d2e34d343c55606445b69"
+    },
+    {
+      "path": "_next/static/chunks/0cz1d0mv5g_q7.js",
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "path": "_next/static/chunks/0nvnz_nryu_85.css",
+      "sha256": "ac66d92db9e18007394708592a7b596e950f6f66e11dfaf5420b7986c98be934"
+    },
+    {
+      "path": "_next/static/chunks/19mx3mg6lkumu.js",
+      "sha256": "170f3982866674a829571beec30cc23c69fcd36196739ff34b9d586b3ad73cd7"
+    },
+    {
+      "path": "_next/static/chunks/1eh83f1trsv72.js",
+      "sha256": "215f97dd122d9229d886c8936d352dd7ae310d1cb54d2df2e473daffde3b56b9"
+    },
+    {
+      "path": "_next/static/chunks/1rzgndl1t2vin.js",
+      "sha256": "a497add6f50008339b34fb42edae97e32d83ade2320bd36163aab97bac725abd"
+    },
+    {
+      "path": "_next/static/chunks/1wcjrzvlsr3-_.css",
+      "sha256": "754d09a175eaf5b8386da79cdcf612e2a7c3de30b2b4a8438924cc6070cb6cd8"
+    },
+    {
+      "path": "_next/static/chunks/20bjp-4m-ncfo.js",
+      "sha256": "f8de3808217817fb2ffb67eaf8cccd941c36f692363c407c58d628bad667495b"
+    },
+    {
+      "path": "_next/static/chunks/2eq0sjbf9pj49.js",
+      "sha256": "bcffbd1a7613b952f043e170773b8541140ba3464031e90a0c997e76191ccf5f"
+    },
+    {
+      "path": "_next/static/chunks/372f3zpj0bvm8.js",
+      "sha256": "af8b4d10c2852c088f45654a5f78c83e46ddaed9047aee0e2ac8df47a19180d6"
+    },
+    {
+      "path": "_next/static/chunks/3eghy1z8rsx6t.css",
+      "sha256": "bfbcbc7b6036cc58e2569f6b9b9a9f9fc7a5662d3472efe909802248888cdfc9"
+    },
+    {
+      "path": "_next/static/chunks/3fntmmi971322.js",
+      "sha256": "34ed6abf4c6d0d1bb3dc56d3f133d2a5dbc3a3c89c791deab314e27143ac14ce"
+    },
+    {
+      "path": "_next/static/chunks/3kmozkq6tgqnz.js",
+      "sha256": "5041f52530a4c19c096ff1fd24f890f17301ade46cf0b21a3a4f5b20d024eca4"
+    },
+    {
+      "path": "_next/static/chunks/3s6nzrbk-8mnv.js",
+      "sha256": "1d36f2e3f57740f75eb021aaec1208d7e938130e36c106a9f28678e4a98559b0"
+    },
+    {
+      "path": "_next/static/chunks/3yffaf1bri3f8.css",
+      "sha256": "4356a572e70c6ba0fa3e47d8373b6693ff35dede313765609b42916271e14b5a"
+    },
+    {
+      "path": "_next/static/chunks/turbopack-0ewssgmc2dw5s.js",
+      "sha256": "b9b97621260c74d6af850269deb1490301c085ad24917ebcea01505254d786f3"
+    },
+    {
+      "path": "_next/static/hvqnRSj6XzLCmAec2_yGO/_buildManifest.js",
+      "sha256": "9476e0afd3f9da68a64e6ec58631191fd3eaca62c9f5a377e7517fe9a89e59ea"
+    },
+    {
+      "path": "_next/static/hvqnRSj6XzLCmAec2_yGO/_clientMiddlewareManifest.js",
+      "sha256": "5483e3295dc35dfe29ea932efc85341c916f10ff78ff5b0e965e003710893a4a"
+    },
+    {
+      "path": "_next/static/hvqnRSj6XzLCmAec2_yGO/_ssgManifest.js",
+      "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00"
+    },
+    {
+      "path": "_next/static/media/icon.1eu6q4ec-f-yt.svg",
+      "sha256": "93ef4d85d4cad9a2f11d7546dcaba5234453b916e8c741456e3c69326205e01b"
+    },
+    {
+      "path": "_not-found/__next._full.txt",
+      "sha256": "91d3ae1ac6b4e33cb7df4c51954085f24d78ccd3c05a0e6dd6f9b3cbd25753eb"
+    },
+    {
+      "path": "_not-found/__next._not-found/__PAGE__.txt",
+      "sha256": "a0d168282ff82f10a9fba355ce38e23ef51af54228df9d4a6fe9d3f6a8c4e337"
+    },
+    {
+      "path": "_not-found/__next._tree.txt",
+      "sha256": "4e1bf7ef50ce3bea9b48853af514fc8a5902668688f615ecca8dd1ee65a74b5d"
+    },
+    {
+      "path": "_not-found.html",
+      "sha256": "6711da4fdfa0e06b3e9710b34d111692902aa1c609aa0aa40ea04f27f09f3cd4"
+    },
+    {
+      "path": "_not-found.txt",
+      "sha256": "91d3ae1ac6b4e33cb7df4c51954085f24d78ccd3c05a0e6dd6f9b3cbd25753eb"
+    },
+    {
+      "path": "calculator/__next._full.txt",
+      "sha256": "39d6020c89ca43521df112b707bee9cb965b1441cb5e5781d86b8fe834b50908"
+    },
+    {
+      "path": "calculator/__next._tree.txt",
+      "sha256": "c3d11245c9c55bf2f7035b4a46aea24a629711f10fb1c4b182b403a558713ec7"
+    },
+    {
+      "path": "calculator/__next.calculator/__PAGE__.txt",
+      "sha256": "beba0b5ff9e2565297fa6660edb02da079055baedcd08f0cb3c90a6aede2652b"
+    },
+    {
+      "path": "calculator/games-career/__next._full.txt",
+      "sha256": "c449f7dd427b06c1c72bbf4c45a2fbce41c0dafa14cf801e8ec19e06651c0d88"
+    },
+    {
+      "path": "calculator/games-career/__next._tree.txt",
+      "sha256": "3287294c041baebcc9d07b286a408e7f317de5e0c3b8c87ac5226edfab88a6d2"
+    },
+    {
+      "path": "calculator/games-career/__next.calculator/games-career/__PAGE__.txt",
+      "sha256": "3b79ca2b631f2a1a25b7270ecbbf475d0abf5756fa57cecff11ddfc4b71a914c"
+    },
+    {
+      "path": "calculator/games-career.html",
+      "sha256": "926a2798581b23e9008b38f2431c112dd655977099272facb45cea54ba983a72"
+    },
+    {
+      "path": "calculator/games-career.txt",
+      "sha256": "c449f7dd427b06c1c72bbf4c45a2fbce41c0dafa14cf801e8ec19e06651c0d88"
+    },
+    {
+      "path": "calculator.html",
+      "sha256": "79b8d643c86812613b5b0b4ce1bd373e02c2686441fee6556bdf528e98c4800c"
+    },
+    {
+      "path": "calculator.txt",
+      "sha256": "39d6020c89ca43521df112b707bee9cb965b1441cb5e5781d86b8fe834b50908"
+    },
+    {
+      "path": "crown-clash/assets/audio/hydrogene/01. Battle Theme I (loop).ogg",
+      "sha256": "385a69152bbda24509330c85ed39e95ac891ce18829b9daea8762f8d506acc94"
+    },
+    {
+      "path": "crown-clash/assets/audio/hydrogene/16. Battle Theme III (loop).ogg",
+      "sha256": "026aa495895ccd63b2e1e50da8f8d85cb1625b47abbb1602adaa412b19c06818"
+    },
+    {
+      "path": "crown-clash/assets/audio/hydrogene/LICENSE-SOURCE.txt",
+      "sha256": "ce400de9c58710c0f6e622552262eb04e80d53c849cbd6fdaa803efcafedb7cd"
+    },
+    {
+      "path": "crown-clash/assets/audio/hydrogene/readme.txt",
+      "sha256": "a6ddb6a2f846efb8afddd03f3c2def5ec478d5a6ae56e9b5b9b6bb8cdffaa700"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_carpet_000.ogg",
+      "sha256": "b9524658b52a99a20590f8feefc103088637fd13ea8ec35811aee785e1f2f330"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_carpet_001.ogg",
+      "sha256": "9af3c3f76705107339e72036e4053bdca3eaa50ad31c8c929f42ce8d40e5d781"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_carpet_002.ogg",
+      "sha256": "9af3c3f76705107339e72036e4053bdca3eaa50ad31c8c929f42ce8d40e5d781"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_carpet_003.ogg",
+      "sha256": "4ae7454338d57c7d102145919ae653c7d010eb542797c4f25a1c7470be3a7e4c"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_carpet_004.ogg",
+      "sha256": "4ae7454338d57c7d102145919ae653c7d010eb542797c4f25a1c7470be3a7e4c"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_concrete_000.ogg",
+      "sha256": "d7267e183067757c92c169de2a379abea592cfca6b39bb2e8feea15221ad79fe"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_concrete_001.ogg",
+      "sha256": "507a75eb19b897087855a3be3cf11a12d7fa37d143ad535eeebe0b8031c7325d"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_concrete_002.ogg",
+      "sha256": "b21fa546d74941196b25da8a20b7010abd8c05c4fcf93545d1f344e66a664e13"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_concrete_003.ogg",
+      "sha256": "8b513c2f0316324060b9174b8f28df6c2147418c506e6a53b77f18e149a5547b"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_concrete_004.ogg",
+      "sha256": "24dd8db2413e5b81ad181e1205c12a1c7801da5f85715d471b92a4b2f632e45e"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_grass_000.ogg",
+      "sha256": "9d49497777405d78d7cf7f2888e28277f3a23192300cfd1d79d54876b20f479f"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_grass_001.ogg",
+      "sha256": "fb28781bd22b2eefdc14077f1adf5c94d7fe9c3a130194633b55f3e0d39d9f04"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_grass_002.ogg",
+      "sha256": "73a520139f5be716a403bfe9c80e0e94d1e61d8e9de04a354b336392164b53dc"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_grass_003.ogg",
+      "sha256": "0546e1d8ab2def714425701a18bd34c5ee2794b12e858e5b595aabcf38a34137"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_grass_004.ogg",
+      "sha256": "086fd4ab3546a507ea5f5c759a9a10e535c95ade13705c238bc0eeffd7d4e8ba"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_snow_000.ogg",
+      "sha256": "c05fa4a9dc9a7aabc04996466fb589537e49af76de9998d8f9e6270ec92dcef7"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_snow_001.ogg",
+      "sha256": "980fb9a1c9227aed7995067b0357f373053337f2416316db8ea0438418542fb4"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_snow_002.ogg",
+      "sha256": "db52bafdc66304f3b999f2c29227826c65993916e630ac2ffbca17d07b263178"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_snow_003.ogg",
+      "sha256": "68272e3f1cabcabd02d328fd344454d7c04cb58b5a86972fcdd858f845e3d007"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_snow_004.ogg",
+      "sha256": "7fe9ce5f5732aaa0a50ef02bb1ac162c27f6bd85214e86aaea6e13e7a41dbc00"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_wood_000.ogg",
+      "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_wood_001.ogg",
+      "sha256": "e4f68e1c9fd55b4dc8ca89ed2bbab6f200171bc54bdc18aa96b80d8e7336f462"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_wood_002.ogg",
+      "sha256": "9ff095b05cee5eec40b081defe3f0eef7232bb16d4865ce03b9f6dbab875cfdd"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_wood_003.ogg",
+      "sha256": "2a68a083daa9eda08fed0ea5da5280dfbe0de226196c576be02f95259dd139d9"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/footstep_wood_004.ogg",
+      "sha256": "b33e0854e2b3f6b6492e25c25ef8f90447a332f7c6bb25dd02edced9581d3441"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactBell_heavy_000.ogg",
+      "sha256": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactBell_heavy_001.ogg",
+      "sha256": "9df61e3ae9a83dc65e5a1fd3ed19d480876f3b22b963a1b9ef6fa293592dcec4"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactBell_heavy_002.ogg",
+      "sha256": "a4171ed1a4a17fb858a38de1c59b5b42e50d8f046c525706c0e3ac8671f189f5"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactBell_heavy_003.ogg",
+      "sha256": "5572ccdeb3b62373b86fa955355b3a222c36e815f0636ba16165189a21cf2514"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactBell_heavy_004.ogg",
+      "sha256": "49fe4fafa2001bd0d312976796824571ca8429851f285997e1327d17bb34fd00"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGeneric_light_000.ogg",
+      "sha256": "f0e982611e97512fee5f777986b67e8b435434b601f94992ec044f7e89fb5acb"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGeneric_light_001.ogg",
+      "sha256": "c3cd1c073d186ae8fa35788ba94de581f1826e7427a7bb26490b2695fac18efa"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGeneric_light_002.ogg",
+      "sha256": "d0bf60905b59ff630ffe01eb0edeeacd2504eaa8fb6523aeef7d2458b78264d3"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGeneric_light_003.ogg",
+      "sha256": "0e8896706130f6bc88cdf1f0157aaacdbe88dce86cf0330f9136e44eb1209e81"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGeneric_light_004.ogg",
+      "sha256": "f906fa3a37acc4372787b496efcedefa2856045d5ec9456a3bd6c303c0eabb41"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_heavy_000.ogg",
+      "sha256": "b44b39a940e8948e74b9bd3776bff980df43cf220abdaf0d467dc4c43c0244a5"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_heavy_001.ogg",
+      "sha256": "58686e0e562612cc566791844a10e269f8d1921f4766c14ba43976fd0a429f4e"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_heavy_002.ogg",
+      "sha256": "4978654ac840ad519692d5d5ba48a8101cabce13b9a577be73ad589185e5e9ed"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_heavy_003.ogg",
+      "sha256": "aed07b154f24410c17e5262bbef832842fb275d41fe297f721af7501d0e9c23a"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_heavy_004.ogg",
+      "sha256": "c7742b0e33c1733ddaf902aa68464a4f5364e4d4cb6ff11b76a7aa4151a138dd"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_light_000.ogg",
+      "sha256": "d750cf88097d0c3e69920e6e14496e1444e1a9da01aa4cca8f5ec8cb44c57b4f"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_light_001.ogg",
+      "sha256": "05e513fbd42829060eb37855f8c3866722ec5c39a8937c9bfde518cc609effa2"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_light_002.ogg",
+      "sha256": "710db7451bb7857b9140dfe6afe4621ea2188ad65eda3919c569d1bb285b933d"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_light_003.ogg",
+      "sha256": "765290ce32fa108c939a0dbd6fbacbcd05abde622b57b708eb8a64058ef4225a"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_light_004.ogg",
+      "sha256": "f535b7cb7835400d8d28bcf9e1cf047ce3c0eb7a6456bdb1a4a27acbec1ed2cb"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_medium_000.ogg",
+      "sha256": "9252d50bfb85edb17d6073c4a7806e10cdb9de56d3dbfc93a4b9727146d2df6d"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_medium_001.ogg",
+      "sha256": "d3d806cb3012c9ddd87010b30295ccb74d6d8b690077d19e67afd09a9d8feb03"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_medium_002.ogg",
+      "sha256": "48616f22c95589ed9fe55babf0fd012721d7b2ef1b9e85c2ad6408a2cd7c164f"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_medium_003.ogg",
+      "sha256": "dccea1ecc3d942ee5fd217c684632638f6c039c97cd3ae59c75ab15d0c3f0b59"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactGlass_medium_004.ogg",
+      "sha256": "853fe77ad46bd0cf106e40e741b039e15b90f73edecd92cde524fbad9e3ebe00"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_heavy_000.ogg",
+      "sha256": "e07045693e4a2b3d165c424e3dab4c781d9ff8880a386880ac89a51315d7f831"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_heavy_001.ogg",
+      "sha256": "83554049f81f4db9209379e103c30bfa63f65c42189a03f300b045c2c82e23ae"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_heavy_002.ogg",
+      "sha256": "b914c8f1eb7c0f34bb165d7c77f4be0351f6be0660c13c53e65424e262e2c093"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_heavy_003.ogg",
+      "sha256": "b0f2ba4dabde9a87eb9c188a19d31e0c2300fd321adeba08d3b9b8aa011d7037"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_heavy_004.ogg",
+      "sha256": "6d65b463c0555dd5be16b8db6d2cbe23a94e07a4637779b8ad17d0db3e500a87"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_light_000.ogg",
+      "sha256": "33b5e6e37c6e9d54e07bf5a89b12c76e879f40c1ea83cdd82714df1d6f9fec6d"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_light_001.ogg",
+      "sha256": "fba69c467ddd85da7b1d82e259f936b876d9ba6a3d6f1b24bdd10468e46bfe08"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_light_002.ogg",
+      "sha256": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_light_003.ogg",
+      "sha256": "92d5db6bfc672d9dc1b4f390b2900504f013187fa36335472554fafefa9050b1"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_light_004.ogg",
+      "sha256": "9b1c35820fba507081261f19ab5f461f69a5e2627a7d91acdb73ca3cfc997979"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_medium_000.ogg",
+      "sha256": "a96f879fec0864a8938e0c745b6996a6c5679c16a234ce31a01cc995e8401003"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_medium_001.ogg",
+      "sha256": "e8a9eaba7c4d27422e4eeb3e6c7100d5d7dc0f83e005efc98c960adcc5265337"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_medium_002.ogg",
+      "sha256": "7e89ce2ca0dbda95ea2b78d4b50791cab35c10d20e9f5ccd45dd0b00e99ff548"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_medium_003.ogg",
+      "sha256": "2a185e2e57211d02c1bdd33b872d6b6a2fe83e6c14f4e56f426a95e717acf08e"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMetal_medium_004.ogg",
+      "sha256": "03e10f800199c7166208e41c11cf4acfac6cc265467f02357da71972bc967295"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMining_000.ogg",
+      "sha256": "36b4ea107222d073c67ca64dde26944975609202d5090b2f2021213c1a7e35cd"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMining_001.ogg",
+      "sha256": "61235a18de3f3d92118235398222dbf51d448f1be70b1c8bc962b10b86f2d9c6"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMining_002.ogg",
+      "sha256": "059558ec751115ca6b1441e00f0adc837c1a3eeb0a066b109e0fd879fc5d0b0c"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMining_003.ogg",
+      "sha256": "4237fa2cd80364ad81cd0af44f67d7497f1c5edcc7bdb02cd22be2ba4580c83d"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactMining_004.ogg",
+      "sha256": "8ca3a99d85d845751ad8ce7b40509da58263a62e48cde70e5a30b5ccef4c9a3b"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlank_medium_000.ogg",
+      "sha256": "8403cd7a043f0391574c88c55dd205743725b5363d2407f6de145f201690b68f"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlank_medium_001.ogg",
+      "sha256": "d7c304319f8beac616231b62041fa8da74045b62d7155965516efb9b19303df4"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlank_medium_002.ogg",
+      "sha256": "f6a14da45994229676b4f29e6a35f504b5c2ec2b8166fb1a3b1aa004bc6911ef"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlank_medium_003.ogg",
+      "sha256": "0602a7b3eab5f53484f10fe775ee4204e7a2ba9703c886b302e012f7f6fab8de"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlank_medium_004.ogg",
+      "sha256": "6a51318c1c63821ea757622b57fafbf44c16c28129f6d39406a784260d87c447"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_heavy_000.ogg",
+      "sha256": "112d4f93ddcc370b410630f971c0f5d991856102da9c76bc5c5540d388e75aaa"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_heavy_001.ogg",
+      "sha256": "142fd6c77f13d25f318265901163f70f8dfe12f87829169a570025be43de7011"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_heavy_002.ogg",
+      "sha256": "b0cab75d1befa32b4cf215d8ee7e1c400a39182e8b105963b8e310f825b198a1"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_heavy_003.ogg",
+      "sha256": "59775f8979a396c8a793b0a1db206d5bdc651eae808d858e9acaee8ebda5bc6d"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_heavy_004.ogg",
+      "sha256": "e31bfec90630155bcc6af541d1d14ae8202c435c52b42e6b6183fdb6ffb248b0"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_light_000.ogg",
+      "sha256": "6e797cf8a5bfc52d7ed5eb47c227974c1cf2a674954fec5b539cea7d62c7282c"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_light_001.ogg",
+      "sha256": "947915c2eb6ac57ee08fd3a48b297fd108d69abc72076e79882c21cad0eef56e"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_light_002.ogg",
+      "sha256": "8ac5869ea434cf0d364872774efe70b2d666a4f02ba35ddfc1e051d336721be8"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_light_003.ogg",
+      "sha256": "dbfb7c1d002576696df3e9a43d6639ee3f342068398b5e7b55bc2389d20508a9"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_light_004.ogg",
+      "sha256": "9cb33b0c0cce948313f078b60769d2f8e4075472494fc8f8129aa4a23c951897"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_medium_000.ogg",
+      "sha256": "b670d30452983369771081319c268475edaaafe782bf4e8d70bd7eef09d8823c"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_medium_001.ogg",
+      "sha256": "68ba7701b71ef620f498f3038e832157d71ac8db7ad59424545890b250ceb24e"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_medium_002.ogg",
+      "sha256": "68762e1ed49bb59ae6602fad6ce2ebac61958478ddb2668de9106f010cd4b6b0"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_medium_003.ogg",
+      "sha256": "964c5fcfb91e7710e2af25c2243c8b7160756b223b0984bacc9eb25bfeea057b"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPlate_medium_004.ogg",
+      "sha256": "f0e8164081190839caff6c2958361b22780ffba5617f77f2d4ee3a4275b318bf"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_heavy_000.ogg",
+      "sha256": "b33a8f14068aec24ec69ba85e5e87fdc41228975f6a1a3e44a6e7d6fc3d9f8d8"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_heavy_001.ogg",
+      "sha256": "f92f5cb6ba4ff2766497292ffd90865654317eeca976f5652e0708dbdcdc0dd9"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_heavy_002.ogg",
+      "sha256": "7993dd4c156b9979ad69f17be5ebe31850b16039a3857f8477141be54dfee1b3"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_heavy_003.ogg",
+      "sha256": "4ab53b26f4ea575120dcc1348526c9e0db2afc6af7a442aa0489bdead2ca80b6"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_heavy_004.ogg",
+      "sha256": "f4c0c3eb8ab6517583b8218ed03f28923d1b687379aab4c1d5a6d4c10cf8e500"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_medium_000.ogg",
+      "sha256": "486988aa2d6440ffc4c62a0e8ccf3c23673ba84424bd4723378d451b7255eb5c"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_medium_001.ogg",
+      "sha256": "e71d23abcc3f10d9d6bc9615b2a431fff70b12333a5fcdd9964457564ace4349"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_medium_002.ogg",
+      "sha256": "6492f9ccbc8d24dcef607bb1b48790b7870961474561f7fe5601e1c73a3018ef"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_medium_003.ogg",
+      "sha256": "2d7c719c05999e0532f4384e1018e04cd916db715140bf16dee2dff3f820e908"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactPunch_medium_004.ogg",
+      "sha256": "4a256878a3afb994ec9a4399336687748e68c7c136872c08c9c797d8c4e2464a"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_heavy_000.ogg",
+      "sha256": "49e7ca88743fca974bb8676ea138b751cfd8f9033b5e7af8736c2a215d6edbc1"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_heavy_001.ogg",
+      "sha256": "4d0096364ba9e46119d2ff6df493fdc101bd2e1efae061da5e5f77a53b3fdcb6"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_heavy_002.ogg",
+      "sha256": "d130ae541951243d3f6ed963d0057450a445ffe117fbf9a084d34eb1635cb563"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_heavy_003.ogg",
+      "sha256": "d00286a2dc62ee5cb4d42bf56120e7050a855f69e655fc1294410aadd337eba3"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_heavy_004.ogg",
+      "sha256": "e008f0b6b14f62339c8fe9f9b45cbd6317ba4f66604c4899053b8017020a36f0"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_medium_000.ogg",
+      "sha256": "7d3ba0bb5e60a11b5d3e558c141303dcf494256675fbf753c0d252d2cf0481e3"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_medium_001.ogg",
+      "sha256": "7642a4fd43e547afe4f7adfadb3dabb681c0ff512f52c1674bae30a726841faf"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_medium_002.ogg",
+      "sha256": "5069e3571a77d7f7aae9ef71d0364aa245fb7d64a7c8cc9956f221d03088c089"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_medium_003.ogg",
+      "sha256": "5c4a1f35fde7e14046931da7bc3d1b23736541b7190ba107e08a379c4ca43cd6"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactSoft_medium_004.ogg",
+      "sha256": "b0a4dea90eed47accf50b768beff1166f2f1486fb139e4d025b2427637624bca"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactTin_medium_000.ogg",
+      "sha256": "f4bbee66ca191ec744b84fc07ac9ed2a6fda955d51cfed8360f12b62815d3cbd"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactTin_medium_001.ogg",
+      "sha256": "84253095543c094d83cd749f42ecfbc96e356b60385f18a192c18eafb25b3cc6"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactTin_medium_002.ogg",
+      "sha256": "c1d2c4f9910d4529581ae56a9a9a01454c4619fbb7d6da7616221d8ec58cc0c4"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactTin_medium_003.ogg",
+      "sha256": "0d18737d93ba7aa0669f751094cbc1671bbebac4fe207783922938ce75e24334"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactTin_medium_004.ogg",
+      "sha256": "fd53e24efec3d5c1cee5a46fee70f97efd4bd01e53ac5d9b5f3b6719dfe9f5aa"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_heavy_000.ogg",
+      "sha256": "15ff82332f342c30e469215539e1cc57e11b221aa2cf7e11e811d313a9927f3d"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_heavy_001.ogg",
+      "sha256": "f1b07a53ac10c615fff9ba470511fdeb722b5902e1a8520759fc20ad6f546015"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_heavy_002.ogg",
+      "sha256": "ce1e06f2a05f2634c645cb72f6a1623e64bc2d92be34917430a61031fb6597d4"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_heavy_003.ogg",
+      "sha256": "af07511902b309b3f6d8f0e1fafbe93869127fb88099ebdc0aa6a00a98dc3cb0"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_heavy_004.ogg",
+      "sha256": "2c647ae6bd29c72ae2523f7e16e325d8d331b75cc99ab4f637c48a0e11c34677"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_light_000.ogg",
+      "sha256": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_light_001.ogg",
+      "sha256": "4b76bf3ccc8e60d19188f3165b778a7817786faa6887c55d9049bcbeef3b425f"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_light_002.ogg",
+      "sha256": "b183cf7a5bd783817e0e4b82af34ac6658fa1927049089dadc8b15c2ecc771dc"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_light_003.ogg",
+      "sha256": "cdfbe8af2fe7ff9ee28f337a0a989deee0f327620da456c8413644880e9d0004"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_light_004.ogg",
+      "sha256": "e10009f67ddaeb3a59a3e1129cfc1615d84ba60ab578eae07e7092ac223f099c"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_medium_000.ogg",
+      "sha256": "1723a9fd25103ed41af06054814e84e65f4a772bac86ab2dc927da93d9592ff5"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_medium_001.ogg",
+      "sha256": "15271dbe8e2872dbb0ff1aeb7b12b2d2b92b7c1951c88532b9ab9158c36dfc73"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_medium_002.ogg",
+      "sha256": "3f3f1917428b828f733a963167833c707bf88296ff158e1559c57c5cb813d799"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_medium_003.ogg",
+      "sha256": "635c37cfcd854b187d643d450ff0397798dcc29ae94da32192b814fae6bd854c"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/impactWood_medium_004.ogg",
+      "sha256": "7ba48f2f99c91c71be420841a91f1e69c0cbc4fe887fcd7213144d67bb87b13a"
+    },
+    {
+      "path": "crown-clash/assets/audio/kenney-impacts/License.txt",
+      "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/LICENSE.txt",
+      "sha256": "625d3a6f137d3f589e3783e42cd67d22b38b692b077e776a436d4be0c5e934a1"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/manifest.json",
+      "sha256": "4ae0d2495d5b2eaa9681cf5f78ca4cdfbba0d3de02e02580b4098f0fdf5027b5"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/metadata/arcane_burst.json",
+      "sha256": "dc0bbd9bc6082c4bce861623c32788c742a973e66ea1a9949eae1e029e10fc35"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/metadata/crescent_slash.json",
+      "sha256": "128dfdb648299c7ad065a0949ebbdad73f9343fb05ed58c809fcbaaa1fc19f15"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/metadata/cross_slash.json",
+      "sha256": "5a8ccde47420d7091e393fcfc9fe8efeba150214906bfe950590ee97682aca8a"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/metadata/dash_dust.json",
+      "sha256": "bf205a813b456f0e4c38fa9643aecb27baafb60b775c713c7ca7daa0e87e43c3"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/metadata/electric_impact.json",
+      "sha256": "e1e4cd365f39b6643b5585b89737679dc7435ec9d74367e415382c0a393673cc"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/metadata/fire_impact.json",
+      "sha256": "06f17e3b9b6c408816afc038d49ce28c5fbdce1baddc0a7f09d2427a28370e05"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/metadata/hit_spark.json",
+      "sha256": "4f467f5019a26c5f4c48240b410a4df0591e54f7061bf69bd2f597d193b77dec"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/metadata/landing_dust.json",
+      "sha256": "6be82b672930413244b8d07bbc66bf92e1c74d6b22a676e930a2b2c4f3329a13"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/README_EN.txt",
+      "sha256": "3d0ab9c467fcc4f03412d4e424fa04831c53db2068fb11872b1947ffaff95f47"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/spritesheets/arcane_burst_64x64_10f.png",
+      "sha256": "70f2ac484065dcc1597bf7d7763fb19f58a2be54f11a476f3392c829b986be52"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/spritesheets/crescent_slash_64x64_8f.png",
+      "sha256": "73636cba6390d1bf6b9b50557a9f785239bbf019cd6072bb71159dc621885989"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/spritesheets/cross_slash_64x64_10f.png",
+      "sha256": "ed657456aa1e6f631bc6593e077d7e668ce773091360484197fd535210a70094"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/spritesheets/dash_dust_64x64_9f.png",
+      "sha256": "743a8afd626fde0c96fa09b1deab85de6a9306574eae79ff03d1977b1bd26b2e"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/spritesheets/electric_impact_64x64_10f.png",
+      "sha256": "b12ca07452bd881617bce65013dbb248d199d91130cd66c585f0b49262963eb9"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/spritesheets/fire_impact_64x64_10f.png",
+      "sha256": "772adaa8fa33708142fe8c67b73a28bba6cdebd993baee8699f50a5b8499c50e"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/spritesheets/hit_spark_64x64_7f.png",
+      "sha256": "b223b5d9abb55da1cc8185e20a0824a17ff02f87137727776eb741a3ec9a271b"
+    },
+    {
+      "path": "crown-clash/assets/effects/combat-essentials/spritesheets/landing_dust_64x64_9f.png",
+      "sha256": "e24de686bc150f69733378779c1396a4c20c307ddeb69733cfa8af7113f6e268"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/public-license.txt",
+      "sha256": "86f69297d227354c339ca839a7efe172baf857674164cc4148dc159274be3f6c"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt1.png",
+      "sha256": "49c4aea99bb3b8d831cc0b03ebc8a6afc243da891ab7c4f0dc525ed6e8b61830"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt10.png",
+      "sha256": "94ca9b812146a43206f1afbc293f944b7621a10745c147d840c5f8fcf5f5a27d"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt11.png",
+      "sha256": "bc56f46df0a4afd675e002c6fcd8bbee9ddb683f0735cb8b3c08801933b19719"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt12.png",
+      "sha256": "4ccdc265e456e9b65ab9757ee5a3a095603d8150b27d21cf7343749896752975"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt2.png",
+      "sha256": "7e22744de14d1cb5ae523ef4901e20755531354fc297c6dbc0f48f1e9832beac"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt3.png",
+      "sha256": "cd55ebe287a5d81c9434711611e03c2eaf3e7611e1de4cf39cb5d320f23206f7"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt4.png",
+      "sha256": "c8b54bdd282dbce0fe268c64e2493e99ef38aa404e2a7da7b9f6a9e8b0b546e7"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt5.png",
+      "sha256": "2be622e81f9152d3ea935518b6ab318aba61d242d4c46ff65b8a80e79b86310a"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt6.png",
+      "sha256": "3627ae5bffd136238ff363e60a66cd4ba049146c83e0a2e89f4311a1e392f7a0"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt7.png",
+      "sha256": "9fc102f64d2fbf01a6d049c21a06402d870ea192ed088a73065111785cb03e49"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt8.png",
+      "sha256": "2acf612511549bc9789d4e5921122baafa9b0fec84dec6042e3cc0a2362e2dee"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/DarkBolt/Dark-Bolt9.png",
+      "sha256": "7030509037917c8b2f31ad4a622f0d0031219c0ae3d49826a53f5b70739ffae1"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb1.png",
+      "sha256": "d50ba5e7a318e5a6da65a2f2d73c047609466c57d9bf9071751d5901c25eceb5"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb10.png",
+      "sha256": "ddca66704fb4e0376ec3a3111ffb59e49c5c4ada0d7dba3de3673300ac236d3c"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb11.png",
+      "sha256": "67280daa799607040bb7e9a206bb0777a1d74e3259a241ec0275b97076572966"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb12.png",
+      "sha256": "3732231d15a07bc191b3b04f350e36e5b5bd121f5363943b4e4a611c3ceb29f3"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb13.png",
+      "sha256": "62f74f12c139c5fdde926d60ae87077593995335002b3bdb17a87073ef4c80f5"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb14.png",
+      "sha256": "01018ab91b3de68407033fa547df62df4c40105843abf1e6ec89868d7f84de2c"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb15.png",
+      "sha256": "1c044d225b66329ec488ed710d4d11ab3b6a8f9d311fe7b1ad4ba42022e16bf8"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb2.png",
+      "sha256": "15f0633a124f7193b892f96b282f3c303e11fc30c39d321f9cf31f755f2be099"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb3.png",
+      "sha256": "fe5bb244a86b4de2375cfbb4f43bacb0257f6b9082562a4629430aa96a59c893"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb4.png",
+      "sha256": "9510e021cb431ac2cc7d309d0bff094201d496ccc88df41be58f8818e6d04ce4"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb5.png",
+      "sha256": "0ed8c2508db4184d7ad80a16f9e3d17bec85b41fdf962497f065de28e35855c1"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb6.png",
+      "sha256": "69114ae02d277c5a5467239464cf7871fb080dc230088162cd8ea1a0432d74d9"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb7.png",
+      "sha256": "7479e13531c89bb776887d45a9bde9010eb9e8b2553911d1c3fc00bec97d247d"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb8.png",
+      "sha256": "6c1b4c7ec280e01bf6a2ae0f5e9b848d68db402e173429a2ece7e50a314ae8bf"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/FireBomb/Fire-bomb9.png",
+      "sha256": "adbdb72f13aa3f6b8a991f749ddc3a3680331116cc545e5ec01626ff365952f2"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning1.png",
+      "sha256": "1a2d812df144b3dbf5ac03b3eb22c2c9dd9ec1e54d902c34863ae68f0ffb120b"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning10.png",
+      "sha256": "6e5266648ec2fdf7da1878811e7fdb635c6a2b9492cf4f229a570bee03b93caa"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning11.png",
+      "sha256": "e448063082d2c2f7cd6ec9e43cd81d51ee214f2b3c839724dde80588af502c3d"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning2.png",
+      "sha256": "e70175ec0416925160f64a79fb7aa1ca98a5ea26f5f02f4a54cfd18cde6b4327"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning3.png",
+      "sha256": "b973db441a22bc3e0c4571e15a88b569a8cf1c5b647f42d35b2a4f7bbe69fe71"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning4.png",
+      "sha256": "a26c39b151d0974f91f259f875c6e5eb66dee5b9bf3ff235abd55a0381d73842"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning5.png",
+      "sha256": "46ed563ce09565d906734a121a49d5d9fda70436fc911ed450b19eb48ab2a27f"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning6.png",
+      "sha256": "ebb191fe4de7caea707f5598b6a2a385e0728baed34d9222cbbe640eb63dfbe1"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning7.png",
+      "sha256": "462b90170aba13180f6c7df90fe5482fb07d20de9744d1c764bfb18db8fa9bc1"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning8.png",
+      "sha256": "71885570e760930c30bb914ebf7c1f517cb0eed5a7532208aa2f174b84ee7170"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/Lightning/Lightning9.png",
+      "sha256": "66a23e17bf1c0b1218cc7a4d0cc85b7c9531103f0b273b2082e93248b28f3bca"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/spark/spark1.png",
+      "sha256": "e79076c7d81e72416127067b2fa502c59349e0034253f833c11559ecb8f31b2c"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/spark/spark2.png",
+      "sha256": "2e6d7802829d2c674d40c25fa3a9e4079510511e78fa3599258f8e0aca18409a"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/spark/spark3.png",
+      "sha256": "2f919d5aa5c1191b063232aa68f338286e8e627cb3572baea33a4ddfbbfd870c"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/spark/spark4.png",
+      "sha256": "a5021f473296205878d10d956d5664e48d8792b036884dad024e562275a27245"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/spark/spark5.png",
+      "sha256": "c7df66844cc4c8a475eb59e9c5d753ba88b204674c8776ce607f5137364436c2"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/spark/spark6.png",
+      "sha256": "fa5dec938aec66e063a7bc7ac3b7aa3564af1fc11b1462abe9ef7019f5043467"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/spark/spark7.png",
+      "sha256": "e9caf2aa0cba04c5de9e9ab9c075406b2b8329d32c5e4f725ad2d54fb3a8b67f"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/sprites/spark/spark8.png",
+      "sha256": "3b725ae97521a30eec9086476b0affafbaf4ec8e0a9bcea86747930065b8c535"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/spritesheets/Dark-Bolt.png",
+      "sha256": "e958f6b082bef502256441b040d31cdaee4ccb706f463b5277f78df71602ee03"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/spritesheets/Fire-bomb.png",
+      "sha256": "747ac2f5cdbff57a356016523a72f3f51c9fe4279ba90d1b2102bf63fb725c89"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/spritesheets/Lightning.png",
+      "sha256": "e68c3df2ca0f09736240d4158122bb1c87d043c4b4efb2c7d5e987710f2d3d52"
+    },
+    {
+      "path": "crown-clash/assets/effects/magic-pack-9/spritesheets/spark.png",
+      "sha256": "61729d57dde0f942d1252a0c2071d952158c14dec99d3a8b6d0c91f17111e245"
+    },
+    {
+      "path": "crown-clash/assets/fighters/ant-face.png",
+      "sha256": "d622e5f529f8de99af4ca7dd9258a76525f0ae101c113ef5032964c1efedbd3d"
+    },
+    {
+      "path": "crown-clash/assets/fighters/ant-motion.png",
+      "sha256": "160968c93ee4e254497c302cf593bfd9d715a6e7733de1c1552a2dbcd7adead3"
+    },
+    {
+      "path": "crown-clash/assets/fighters/ant.png",
+      "sha256": "a2cd04e9b5beec5918a3dd46b9d3c5da407869a53566c986ae53adab17de2335"
+    },
+    {
+      "path": "crown-clash/assets/fighters/atlas-meta.json",
+      "sha256": "6f12a86dd21b69d00f6fa11186c32af2eb85d45f30813e12c82abf5d7b4028d3"
+    },
+    {
+      "path": "crown-clash/assets/fighters/curry-face.png",
+      "sha256": "8a789f934d7179ab7b48498882b04334c898a3836c4d8eafae77bc4f84c62547"
+    },
+    {
+      "path": "crown-clash/assets/fighters/curry-motion.png",
+      "sha256": "bb674585fcf3747fa98c084df0f2ce510e2db423bb27bc838326abb494e3be76"
+    },
+    {
+      "path": "crown-clash/assets/fighters/curry-proof.png",
+      "sha256": "433d96a9a5fcc471fc9ddae823ad36b02b002657bf8ddc84eab5cdd345fefb6d"
+    },
+    {
+      "path": "crown-clash/assets/fighters/curry-v2.png",
+      "sha256": "050f0064317b862def8b5faf420d715e15904a9eee61c5ec8282eca1bb6e2d09"
+    },
+    {
+      "path": "crown-clash/assets/fighters/curry.png",
+      "sha256": "a6bbfef0dc16ad557e78a4679666bb136e69c70a586c9b240c338d29b16042f3"
+    },
+    {
+      "path": "crown-clash/assets/fighters/greek-face.png",
+      "sha256": "8cb4fee5842d63184870658b09c3617f41c6215f9a4f3380fcce3ca0e8c8bda9"
+    },
+    {
+      "path": "crown-clash/assets/fighters/greek-motion.png",
+      "sha256": "28a4930be95790c70dc2c7d7137dc63600113edf716e8492b3afab1a40c1697b"
+    },
+    {
+      "path": "crown-clash/assets/fighters/greek.png",
+      "sha256": "d5bcb56918858f7a258ea27fc04d797aa158b883c6f7027bb3dfae665f917fec"
+    },
+    {
+      "path": "crown-clash/assets/fighters/ja-face.png",
+      "sha256": "f3cfdd01c6f3aa305a9b5d34af3ce4cc5d821b2d79f00db2ce31adf96a00bff1"
+    },
+    {
+      "path": "crown-clash/assets/fighters/ja-motion.png",
+      "sha256": "4c40c5d3738b7fc323f39295cec888144a5988d284dd0958e1b3e2009b1eb6f7"
+    },
+    {
+      "path": "crown-clash/assets/fighters/ja.png",
+      "sha256": "493edaf05252a49c2f88649084da36fa83937e77b7fe7202c89a0aa65d077124"
+    },
+    {
+      "path": "crown-clash/assets/fighters/james-body-v2.png",
+      "sha256": "39a53945f6d859ac1f203b291ad0d607ddd698f4e5470944c0d9843e12855864"
+    },
+    {
+      "path": "crown-clash/assets/fighters/james-face.png",
+      "sha256": "eba2ee6e9774bbf627bc275b10154fa129defd9d5c53339f7c963997a45152bc"
+    },
+    {
+      "path": "crown-clash/assets/fighters/james-motion.png",
+      "sha256": "ea69fb0a1c5d8008e19c29f61edbb54643f9882d1aaa8bff156ab1e26ab28b9b"
+    },
+    {
+      "path": "crown-clash/assets/fighters/james-weapon-v2.png",
+      "sha256": "4d06953b89f4c990a9202ffa5051942ac6466d41df7a229ae3b9faeee1a782a2"
+    },
+    {
+      "path": "crown-clash/assets/fighters/james-weapon.png",
+      "sha256": "b4a7b8a1bd0bb368ddbbef5ee7814f29ced3078f9631f5189e3a5ef4c47efd24"
+    },
+    {
+      "path": "crown-clash/assets/fighters/james.png",
+      "sha256": "d63d0b8924c899220e662d6ca82478f60e7a6eb904585fc54ac0784ed57b4aab"
+    },
+    {
+      "path": "crown-clash/assets/fighters/joker-face.png",
+      "sha256": "c33eb9bf61d9b5c9af1744849d065a78b3e5b79304ae40cfa647f304ccda324e"
+    },
+    {
+      "path": "crown-clash/assets/fighters/joker-motion.png",
+      "sha256": "027ed20aebbded8c75393d6806c12e7435a558835f8045d101d1c56b768b5922"
+    },
+    {
+      "path": "crown-clash/assets/fighters/joker.png",
+      "sha256": "b2cfc56acd1c34f95cc7e6d3a689d873da9adf88503fd704526c3cbc4b0553cf"
+    },
+    {
+      "path": "crown-clash/assets/fighters/luka-face.png",
+      "sha256": "3fee1dc7b5c99309ff2214dbd51a442cbfdf10fd17d79cc80d2e9f04aa2de8fa"
+    },
+    {
+      "path": "crown-clash/assets/fighters/luka-motion-clean.png",
+      "sha256": "6de8b6c72a555cc9f6773fbe4ecf3b5137d379c6a2f96755809ba38004bce28b"
+    },
+    {
+      "path": "crown-clash/assets/fighters/luka-motion.png",
+      "sha256": "0d4bebb3e15776ae87858dc843d8523967f5c2ff70e8a91a28b481a8b0fe51b1"
+    },
+    {
+      "path": "crown-clash/assets/fighters/luka.png",
+      "sha256": "393dd6e32a3bdb691643ca1b4e6051194d9d3d8f2408222e64b2b42379835c0d"
+    },
+    {
+      "path": "crown-clash/assets/fighters/motion-meta.json",
+      "sha256": "682aab711d22515ee68e89c55a49c409f0e3810ba46f435a711d82c4b8fd3e7e"
+    },
+    {
+      "path": "crown-clash/assets/fighters/reaper-clean.png",
+      "sha256": "28785a1b62ee94a9124cd46aaa813116c2a84f65c38597f67c96b97b196d6bf6"
+    },
+    {
+      "path": "crown-clash/assets/fighters/reaper-face.png",
+      "sha256": "26743621039106b4cc856530cef189ecf632613f92d8fcae660da52bcf462979"
+    },
+    {
+      "path": "crown-clash/assets/fighters/reaper-motion.png",
+      "sha256": "b555372109c885e0721867d21e0e686d49130cdeab1657a75c092cebca8214cb"
+    },
+    {
+      "path": "crown-clash/assets/fighters/reaper.png",
+      "sha256": "5294b8c8190f89410338fbd477a7c1dad0d430ec8cd65c9eba4caf92d69931e8"
+    },
+    {
+      "path": "crown-clash/assets/fighters/shai-face.png",
+      "sha256": "38566cbd540922b4590fd2c8635a4aea1cecf8b9cee05d48019074831054ac54"
+    },
+    {
+      "path": "crown-clash/assets/fighters/shai-motion.png",
+      "sha256": "408d6623c7f5a99e3991a15d8a4c667b9cd1efa7bf81e948306fe39069d031ea"
+    },
+    {
+      "path": "crown-clash/assets/fighters/shai-v2.png",
+      "sha256": "9a8c21d1b7ed3ac7d5c44cad7c70cfee56ded5c05b1e1f0d4aec05a36bb049f2"
+    },
+    {
+      "path": "crown-clash/assets/fighters/shai.png",
+      "sha256": "029044f8aba67568172fd6c11bc6df02d87d9850c675b221efdc450f10a43984"
+    },
+    {
+      "path": "crown-clash/assets/index-CJS2qmNT.css",
+      "sha256": "110a4f32d2acac2d2e0db305a49b95a389b89fb0fb1e3c665451904132686e71"
+    },
+    {
+      "path": "crown-clash/assets/index-cxIBmyif.js",
+      "sha256": "b0f3d4b2be05e2663fe5288c730c7948b2f3313a6b941da6acfaf312f361de23"
+    },
+    {
+      "path": "crown-clash/assets/phaser.esm-BFUbuVck.js",
+      "sha256": "fee9b6027235f19245169132107054e6f80cfec3b7aa54144e5988489cc0887c"
+    },
+    {
+      "path": "crown-clash/assets/stages/crownfall-hall/backgrounds.png",
+      "sha256": "c044093de80c1cc6b064d4016d68fa034d039379db8ee6ee206d4d421148a10d"
+    },
+    {
+      "path": "crown-clash/assets/stages/crownfall-hall/column.png",
+      "sha256": "4226de3ccdf1bd9ac4dd3c56f59f8b832d6125a43fe65119792a0ea61d49337a"
+    },
+    {
+      "path": "crown-clash/assets/stages/crownfall-hall/public-license.txt",
+      "sha256": "2415c7aaa3f7b45d7ed51cb2897470fcb87cd87b1da66d1678840b5fce328109"
+    },
+    {
+      "path": "crown-clash/assets/stages/crownfall-hall/tileset.png",
+      "sha256": "1a5d5684c21eaeca89f3f68ed8d0508c73f3aedc04f7b9cb425c3cd28e429958"
+    },
+    {
+      "path": "crown-clash/assets/stages/crownfall-hall/title-screen.png",
+      "sha256": "97cd9ec58b8ebf2148315cd5454d4cdeeb437933021ddea72292368f87a6882d"
+    },
+    {
+      "path": "crown-clash/assets/stages/sky-shrine/clouds.png",
+      "sha256": "378bff555e7e3944dd9e74f40c77c6b52102c06ff5959405d571e80e34f3a313"
+    },
+    {
+      "path": "crown-clash/assets/stages/sky-shrine/far-grounds.png",
+      "sha256": "5fccdc75271a3fc37964c35b1eb3c0ad86b91a6a73943dbe7f0c8cf9db6a088c"
+    },
+    {
+      "path": "crown-clash/assets/stages/sky-shrine/public-license.txt",
+      "sha256": "402feca7f7772054528382e9b1319211996e24b06100d59f3a8ffd5e2d18c711"
+    },
+    {
+      "path": "crown-clash/assets/stages/sky-shrine/sea.png",
+      "sha256": "bb06b53e63f2039311175a8945d5883e746e616af15e48d7eb9c52dac5b9f860"
+    },
+    {
+      "path": "crown-clash/assets/stages/sky-shrine/sky.png",
+      "sha256": "546a7b1d41872c72db182ea6c029b7833d4f5e586d91ac6d097a4350daec4306"
+    },
+    {
+      "path": "crown-clash/assets/stages/sky-shrine/tileset.png",
+      "sha256": "6e05e711afbaf1f830f1a1ad27f8d0a932c0d32055fdfdc9daa00e28a39d25ba"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Blocks.ttf",
+      "sha256": "bb2f9ba39f4fa7d8dbb3d3d1af05c2517b848f278bbe4f7ab53e518f2429bad5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Future Narrow.ttf",
+      "sha256": "572a3fc36adedf951365f77fa37011115363c7e8a537a308e563abdb299d7477"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Future.ttf",
+      "sha256": "bd36e536cc26672bdba652547494a4877f2a446329bb7141840d9cd73bceffc2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney High Square.ttf",
+      "sha256": "2344a870ec273d85bcf5955e992c774f87b9e2a6dd577713bfdf068c840d0667"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney High.ttf",
+      "sha256": "b77d7d61fd2b149da9937bb3680b6bd4c273e4f9ae31e7acd7010f2323fc3c17"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Mini Square Mono.ttf",
+      "sha256": "2b56b47d5d4525f6e2665ec137b5bd29ced7105584147d11942b3c07110a1545"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Mini Square.ttf",
+      "sha256": "ea0904c42d20c718ca790fb58c51af6f3c739f53e277190be4d7f6786dc5a70c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Mini.ttf",
+      "sha256": "5432343406838b5d14bbefc1d3c0b8940696bb811be93fa04d67761090d006a3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Pixel Square.ttf",
+      "sha256": "8170aa2fc3e6a0d1dd0bccccede3af7a75a3c06cf96fed1796ea7d17e5b19d56"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Pixel.ttf",
+      "sha256": "174093d8b71aa808d7ffff70529c9087274515493add48134528c9136f621e92"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Rocket Square.ttf",
+      "sha256": "fc1c727ba71c7bd19fc54023b700d08e9651bc7b2ed119963a09d9782daac45a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/Kenney Rocket.ttf",
+      "sha256": "d43c418d56db479e879f549b15a34910a28e6c8d0fc1a5273e714c8d7e584dc2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-fonts/License.txt",
+      "sha256": "98402691e89c968502be5d2392c0de86bc787dd49f961fbb799e22c3bbb434e2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/License.txt",
+      "sha256": "ab0032cce635dfd1c71b4ba16513b2777cb560d6b93d52265bb0731491a41dbc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Preview.png",
+      "sha256": "75d217615068400ee47ae6e86ae60e9afd4197c3256eb21227c0181fd2965d73"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Sample.png",
+      "sha256": "ea97eda6ebae4d6ba3f983e1a04643c83174484134803b80e3e8f320e6afcd9d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0000.png",
+      "sha256": "4d9932760df71ebb427d840bd916ae42fb2c053533c45e9ddceb0a6040809638"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0001.png",
+      "sha256": "7f2eaf73df97940befafaec6681dbfdac9f972200e03668323c0d8820eec30d5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0002.png",
+      "sha256": "a45ade41c60a5977345f98107f297a451c1a1a316ec04a5798ce438c6bd6bd86"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0003.png",
+      "sha256": "88d85f33b7eac48489883a60187b3adeabdbd0ab73626065d007a4f1bfe3444b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0004.png",
+      "sha256": "46b5fe7f5c17387523ba0f0a16d0353a5417c750c6931713f1450c36172e89fe"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0005.png",
+      "sha256": "87331174acf482d6eaafdbc992b92913d277be986ee71e80d07ed97db8e2afe8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0006.png",
+      "sha256": "08fb97b7373ccd14e171beca119b4d57636fa50b1eb509530b4a3eb86082ed1a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0007.png",
+      "sha256": "6644246698aad5ada38824ab86a9f0ea70f21e586367ce9c8da51c004cb8a680"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0008.png",
+      "sha256": "1c31c70059b4a96e77f9338e757a65f8d27f270a99e4c4e4583d701d73d964d8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0009.png",
+      "sha256": "07c444d7f389f8c09052af90ab460f40b643100cf5b91b19060748eb2ab7cb89"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0010.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0011.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0012.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0013.png",
+      "sha256": "14ec5456270849adf3b58c6802e9ec0d009af297a86e6332d34a7deda15efaf2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0014.png",
+      "sha256": "b1689552a9f3b3f437f75bbbdf16c8891848908023e4bc88864c1b1af2ab39e5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0015.png",
+      "sha256": "788cd77122dc4b286e23313088a60fbf0cf047422ca8159c1a5b92b603ca0928"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0016.png",
+      "sha256": "d149c30d62ac9e73504d8391317ec633cbb9650fdd59188a4702b793fdebea69"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0017.png",
+      "sha256": "7fb41dcad7535991135527e7efcd4d31ae8a51ad4ac7e5f20d4f4e06744efcb4"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0018.png",
+      "sha256": "f9cac841f7058655503c42e2df72793f48ff3ec3248f5f3dd8542d3c6b3b77e0"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0019.png",
+      "sha256": "81b090629f720a3b8ef1e080e36694f2493d69c026957b9b4dab7acd9b6f73c6"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0020.png",
+      "sha256": "f802f755b62cb41d4ae12a0f44bccd1486039d70f772d53b6d38c27d8b4e4118"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0021.png",
+      "sha256": "7b57d307099e256fed4e14bc62ae2a83e75d9f208c981695f20919915cb41c5d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0022.png",
+      "sha256": "b86567aa265b19097c83aeb33722bbfd37a1846da6100f3dc3fa605edcc274cb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0023.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0024.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0025.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0026.png",
+      "sha256": "77dae6d1465b9439f26dcfc751434da335a7f29f16108b354a9d4250cea75588"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0027.png",
+      "sha256": "e46aada61add8ca574d6d16b9c08b6f928952e2dacf0f43669e1f0a4822323a7"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0028.png",
+      "sha256": "8ec464b013d0724ec8f226e7799af0faf4eb16d36b9aef0a2c7dbb4d4a774106"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0029.png",
+      "sha256": "eae4971659497f26377ee89ea6c7b5087817dff64117997cc72b6fbb6fe8c1be"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0030.png",
+      "sha256": "693370a93d6dcea066ddcfac9ec9609ef05d41e2e668bd2bc9fe973d76b42584"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0031.png",
+      "sha256": "ac0e4de28caa92e2acd4ebf74bfbd39617e5f007ac4dc5be0e5dc9bf8b1d0a33"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0032.png",
+      "sha256": "134515de9548eafee0af4af0743eacf8af5c68d52b3843f801314620a4401ff0"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0033.png",
+      "sha256": "b6e2a3ee9929aa1d00c8192314f53c2ed75a58817547b839f6d5b077503f21f2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0034.png",
+      "sha256": "2559dbf77e065a9c7192c47b79923fc9ae93bb00e3eb5571b094ff1ac203a27a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0035.png",
+      "sha256": "28a8e91377d9dcc059db52cbbcb5fc180fe2ece99de54a50cbc92cf4a356d303"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0036.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0037.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0038.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0039.png",
+      "sha256": "51dfcb6e444951b65a8995e5ceaede8716b099badf8cb8f25b90412ccbda2874"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0040.png",
+      "sha256": "bca3bdebfa85c076e4b9cc3778fefad7132e32a7ac4f09e16a7c902db7f96cd4"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0041.png",
+      "sha256": "9ab1519406670a6eeb491324c931227cdf15b807e539b94f9ab097cbe9c9a8e9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0042.png",
+      "sha256": "b4a919dd9ea295d647b0e27d2abc5c498be864ad3b4a10473c8e6f464ff84899"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0043.png",
+      "sha256": "0c8cd4bb4709b7bc386b7e625c637582dee3be10af34efa6f6aa1597d416db27"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0044.png",
+      "sha256": "18f22aca8ff588c1434772f49942855417895d2de0f918ef38e24be15e3e8d90"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0045.png",
+      "sha256": "fe2742283296382b10210d939de451e5447ff8e87483871c2f4f15efc89216df"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0046.png",
+      "sha256": "0d5c79e67697dce5c86b12e5cf1cbd571bd878f0ec84c5fcad1a75ae0d5515e2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0047.png",
+      "sha256": "b567f1dff091f1c59f1036d10993a4cb0c4e9669a9b021eacec66d5841ec067d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0048.png",
+      "sha256": "e6d94fe6a734189e14c45cb0b582dbbc5b0da240b6da3de066c911c90251c862"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0049.png",
+      "sha256": "25ef52d8f96b61114638bcb4df67577a56a534350d99e25406dbd0554bb0659d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0050.png",
+      "sha256": "dab2535efc1e812e644d6ff6568c42e746d66f62578598e33194bfc7f843d90e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0051.png",
+      "sha256": "a47a29a6da1c3c0a446b546bb090ddfc787a4319d0aee08adcf4e2b7b756b2a3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0052.png",
+      "sha256": "6afdd2bf250e36b575e18e24a2b7cfd0c4f2fccfdee1642adee74c90747236cb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0053.png",
+      "sha256": "2b4fdf80f9582ae78ac4ea894ee473f22a21c6b5d0ec8f86e66b0076625e1d4d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0054.png",
+      "sha256": "dc7982ee0c51e6afc36f04e61a8d2e1d929e66141fa9ad48c5f66d1c5084b9a3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0055.png",
+      "sha256": "d2e53f9a2eb0197f8a9101932c36920f2faa30a3edce2bc36953fe570cde0142"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0056.png",
+      "sha256": "d4da28820ecca728627de4552b26238f089f9a2b90a85cb47d294f687ca1feb7"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0057.png",
+      "sha256": "378bef80c4ab05a3776cf4b10fb480a36af4b9f78dcfbb9022e50a086ce63dbf"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0058.png",
+      "sha256": "7140ac2cb21444dd70f4fe1c3714810b84204aef79833bc48190060135e233ff"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0059.png",
+      "sha256": "c3c292fb090426fbca1722d8de67916bb186c25779450d1c8ddad3000a927b26"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0060.png",
+      "sha256": "51e10ae24405d08265fe960aa9df879c4a4bb2cf2810034a636cb19383411f8a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0061.png",
+      "sha256": "f05da00d8ef476e9cfece389535d89ca1177426aac4e282fc224c637b2f13f1a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0062.png",
+      "sha256": "b4c1a361f53a2d095afe13976d3c3e0156973778024eac9d46e3e79bcd799604"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0063.png",
+      "sha256": "6443a5ce58054852e3e598da0bc8ed33ade24f71ae95d11df79a21de2528cc75"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0064.png",
+      "sha256": "7087e48b177e4176aa2c8e457e0496dc87d6738fb77fe0db247add843f29d030"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0065.png",
+      "sha256": "b458b261179f96e44642a92999ab9039ea1163b6a6069056ec71038ccd8f0a4a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0066.png",
+      "sha256": "514422b4e51cf2e25023d3045996432f7415bb298804ac5d88baf0da1f625809"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0067.png",
+      "sha256": "4a1f51d7f94a6fa1974b7fb3aea923adc8f39a5bb557461ece2b479eac6b6082"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0068.png",
+      "sha256": "3af87b0e324d67dbcfd5f3756525b225f3baf660a73b8ea9e8996c04ae4a9162"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0069.png",
+      "sha256": "c1c9bdc6877b212b30641ce00a431630bb8952695c70dd61e5c2d64cd2d451b4"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0070.png",
+      "sha256": "0c79d6098516fc227d87e6a053ed443987890e7ff54ef4c74c727d3862b28777"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0071.png",
+      "sha256": "c57bae12221cc6766008708458b9a97428759071191a9c2ab3fcd8030a0be265"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0072.png",
+      "sha256": "192d6c095880a4405b78f4abbfaceb7b9590b264457e758fb35d558df2b0564e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0073.png",
+      "sha256": "1ad21ffe171fac7322a4ff5499de6d282d1c4458fe28281443411972dd95d8ea"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0074.png",
+      "sha256": "d6c5b256c2000484cc1d4484cfda60fe850bd7b53a06147a3d8d5bd4537aa4a8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0075.png",
+      "sha256": "c4eb8f8f58e16faf9fde191258befae0fe60442e05d2b10b1c008c137774041f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0076.png",
+      "sha256": "4b5a94520ee76170f70710ed56ee0a78892ab71d0eb6ba2493f57335758b96a1"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0077.png",
+      "sha256": "f9be8e93e26f282c0bde656c2809049bb0438bbf0bdd76959591c63bb25d8116"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0078.png",
+      "sha256": "572217ec8f265a5229e9fa145a1b61c22290630870a5ca759a39cf75e4b25af6"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0079.png",
+      "sha256": "6479dd3e866a26be91369608eb14683a38afbda1bb79195efecab47343e3d095"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0080.png",
+      "sha256": "8e61562cf32f7b3b75d93a98d8282c1f5bb9d1cd38def8177fffd364c14c416d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0081.png",
+      "sha256": "d05b20c717390e2c0fa14a81032507df4e0db5f72bbb5840fd902af6ac5bf768"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0082.png",
+      "sha256": "a318f353a5cf19d05dd228610a39c6a5b2b2b94e7112bd94008ba32ef11af4f0"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0083.png",
+      "sha256": "c9c0a0678eb637baefb344169a528210002341056a77e236e329f5991240334f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0084.png",
+      "sha256": "0762eae7322f0e1428ad66d67798350f9c17cbf6a3c1ce5021d9497a49cbbc1f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0085.png",
+      "sha256": "e9fc34ef11cd16a350446f01bf1fd92939c1750220deba099a493d77ff5ff609"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0086.png",
+      "sha256": "5c4ee1964ca82dba4b0e86b8af0ebb5eedc4b19e2c7ea0af359100ea292d1108"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0087.png",
+      "sha256": "c692922de427d81ccebb09fcd7c2699ee2756b5c54f1e94cb8f29e8e3dab607c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0088.png",
+      "sha256": "f88da2f696808bb66eab673df1628b046b4a022371e0b462fe8dd0c5879c3fcb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0089.png",
+      "sha256": "0f9afdbbd8f2e63f03828a460b0eb6788b342f97292bcd1547239a6d57471da7"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0090.png",
+      "sha256": "9c9b829d3f34730d4fbaef92b37df5b28ac4f1e3f38a2331dbe0e09a38ae4a24"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0000.png",
+      "sha256": "adb95dd4590053e5537b3f1c9526a4557e5c1111b501feb0817cec451281f38e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0001.png",
+      "sha256": "9ab3dc56a10e2c1eae4614e2c0898d7e156ccf9e841bc802e8555cc1d9f93ead"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0002.png",
+      "sha256": "b4340bcd87b60131345a1e5057b3880d214f8dff6ca9363acb5c9bcc04ddee92"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0003.png",
+      "sha256": "a0cc3decf89504f3302f3490acb7c59b927781128699c2a2bc40376b5844a6f9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0004.png",
+      "sha256": "1156650c7ae33019362ce899eac5df464a49c2bb8bd964bea94ad2ff039674bc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0005.png",
+      "sha256": "6671c761df09d4f2bb3dcca4019da668575332e6fa16785edf3e4c13ab8df1fd"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0006.png",
+      "sha256": "5d7e66779e89d3db1b5ded45f6882fbc4088ed3b5e9e7de225bc69dff571a39d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0007.png",
+      "sha256": "1c3bc0cfd232274d9901982fb38484f42510d3c78fda53135b161aa466bcfb05"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0008.png",
+      "sha256": "8a552dc06a94df6a4dbf6d0b79bb2baf833ba91a6f48b50cdb3a2aa3c5131f62"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0009.png",
+      "sha256": "6327e180d9a565adea0b934d71554373ed3e41a9106aaf11caffd291aff7319d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0010.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0011.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0012.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0013.png",
+      "sha256": "131a9927a0a6b0d13efeee601842450915e97efb1932ec77bb16b6d68fadeeee"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0014.png",
+      "sha256": "9b67e4c3d36376e86d8372c5c8ad914f16a70e7696d1685d62d8fb2405c4905f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0015.png",
+      "sha256": "da56761615d4312bbe2d830562b5344397155b388c67e2ff8147a29cd8eb40c2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0016.png",
+      "sha256": "6b4a0c72172afc977152c3c0ea727ebdb69922b4843b7d583c2431a4022ee3ac"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0017.png",
+      "sha256": "4f1498d039064ab4c65479d406c3327c53c9dc7f7bb1f7c8c218d6b9ed0fc6c5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0018.png",
+      "sha256": "6f9ce5192f9f184e3de0a7ae3062f94d5a1dae60b45a71559046dcea3f86ff26"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0019.png",
+      "sha256": "6bc2f7e366931e1b9f022cb668549769b7b2043261c83aff4c4e34dba9079756"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0020.png",
+      "sha256": "d984565234900a21923fbc8383329e2616974d44c2df2e880efc1335aa1cb29a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0021.png",
+      "sha256": "454ad9d63b43b5f8c1a820f920190e7104ed72839362f38ba587a218f7ab17d8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0022.png",
+      "sha256": "2ab6f7fe50c387acee71352af9b174cfbbaedd9e409158d7dfd1dc2fb877c42e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0023.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0024.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0025.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0026.png",
+      "sha256": "0110ec90a7c80d586b82f4226ead5e31a645a4e8f581cd5e1666f85ee4932879"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0027.png",
+      "sha256": "94f756ba6a7e1ac4542a23314bf8c45300458ae702fda4ad00defd7dc3458e41"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0028.png",
+      "sha256": "52083fe83243aed283a6896f18677b72e624c7862f32d39adf1ece2edd2ea3e7"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0029.png",
+      "sha256": "7715a6f5cf2553e5174b4e980bc05b1fb07af3c86aa39d461b2ea37d694e4c98"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0030.png",
+      "sha256": "1f24da3c8b24fa34f9dd59a99227902650a812e44810f464f7bc9c818e2f869f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0031.png",
+      "sha256": "aa379c595d843b5dad27fe1ca409ca4c1d563cb631b7511310eb56f62544057f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0032.png",
+      "sha256": "7f346ced3d52a622a9246c1bb59e29db47373235d5b7e7056e13bd2fb89c65d9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0033.png",
+      "sha256": "a6ae8f4af41c1f94afb608eac4d2b26573df6c1043c05ba1a4b900b077f122b9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0034.png",
+      "sha256": "c6f87388bb161e67685e80b3c767d6da4d24ef8741c76446ad08c6bbcf973882"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0035.png",
+      "sha256": "ca665e23b4493566ce88f185cfac5874a89ea2be9c8a35d8fc1a3e31243c0c24"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0036.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0037.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0038.png",
+      "sha256": "37beabe871ded30cbc18ff4c373df256a6f34b86c3a3180e59604f8486b74c04"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0039.png",
+      "sha256": "dc42014fc57db6f8d1d9e4ad04be7fe806700446c46e595aa93655ba8ee68aa1"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0040.png",
+      "sha256": "bf40e4f0fafe8da5ee89fbd64cd42403fea29f128728157e8e4303cfc39ca8c8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0041.png",
+      "sha256": "1ac7d59f468e897ffc32d599a581499fbf4d188e22a45a4bd5dbdac8dc59ef91"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0042.png",
+      "sha256": "acb9285cc67393a9480d0f505eab28f0965d659196f0a53c57af63ab47cd6bd8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0043.png",
+      "sha256": "37be0495c8e646643f300e6e73d61637f965ba2c3034ec3965dcf51cc394ae8f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0044.png",
+      "sha256": "a9007f51e15483cd26c234b7d3aceff732b5ab49157cad5e181cfa07895ab353"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0045.png",
+      "sha256": "c4947dd5bc6d4b5a47df4253a0527435c66a452c82c045e873545f1a89f06286"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0046.png",
+      "sha256": "05eccb208066a45b4b49a1992fd998cbc4519d443c94e918b3f2d7b5d0b92fde"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0047.png",
+      "sha256": "a4639aad01a4c45833eadf042b49e9ec4e172ef0b73dc4157d18586814f7bf16"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0048.png",
+      "sha256": "791a5a20c57aa08da6ccf80bc7b90a77610b5bcd3b1a3380baf40d07d6a31b3c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0049.png",
+      "sha256": "405df4c9177184e0f879280c2f289f5d1208680050755d4304f061186087b1fc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0050.png",
+      "sha256": "b191d64c27d029bc0c73e08ad12cdb10da8284aa458c8c69606bc27b1017c425"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0051.png",
+      "sha256": "69f2f1aa6bda62fb20fde4137fab6dcbbfc1bacedff800294e0769c828e40b10"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0052.png",
+      "sha256": "34415eeb8119dcfe59866bc4636fb345ff6677b412ec3161a22c4fcd11d82a0e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0053.png",
+      "sha256": "d7717957deed9461b8df008a31e79e84e3c46278a10e4e46a6b61ad1db0a6728"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0054.png",
+      "sha256": "fc875d45fcfb2f466614e6e3a1431c519fb2949f7d0826b75699fd1239898feb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0055.png",
+      "sha256": "ae817de9c6f7d60e1f12ce91427372d7691ff17721957ac688d5847be8f0e4d5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0056.png",
+      "sha256": "8df5bc5ae187a487412ac24553a188e36f1bd349369c25eace90df7740931bc0"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0057.png",
+      "sha256": "7a3e0232c8fb0db4d52bc57c1692918f1cbeea514ed97c974089c795354abf8d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0058.png",
+      "sha256": "ad75769e8dffb4a06edcb980393e3afecd0a270293210c0f9303557285d8faff"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0059.png",
+      "sha256": "4c241f9f58da9f1028c7b8c2b4ab7dac6c955b1234d1c244cf5aacae0c224360"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0060.png",
+      "sha256": "dc492fd55bfcfeff94ac2fbc283ae1247d572424f67d36cf747dee45e60f7d31"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0061.png",
+      "sha256": "987005d9a47760349491a837be2d4f5c36e9e3e6d394db82446f5d7a8498f6cc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0062.png",
+      "sha256": "fe8163ae24e2dee0cf53101988c248ba8670df6c9e4f910bbed9f9972502d3d9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0063.png",
+      "sha256": "4969ad14f5bafa9da16c64ae6e9a68a4edbe531b11ce5638cb8d2195ce6d1c73"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0064.png",
+      "sha256": "48517eafbb52567aac89dc14a2dfe65db2559f1039871cc5535987319a0be16a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0065.png",
+      "sha256": "ad6379ac71450d5f70407072b46e2c7132b83403ad2d7f630f3ef92bced23b54"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0066.png",
+      "sha256": "cafccd66e8679d2dabba7fa30511425587cc331588a5bc7690b57c65378e2f4b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0067.png",
+      "sha256": "a8a2df992a15ed8c6b250eeb9ce602e63c7d5523d72439569b83566d7b328e1a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0068.png",
+      "sha256": "32d1f761d7cc1922e412d33d0c9ab6966cf5dcbc73e2932970c27ff26ad5e07a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0069.png",
+      "sha256": "2f2cae88ab41568c78434dcf1128846664969a88f1def0a775fd00365498ea44"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0070.png",
+      "sha256": "49b04278518ce5fff172e13e9cf18788babd590747144e2def5d1a5ac10afa84"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0071.png",
+      "sha256": "257dbbbe04c2fcbdee564e0bab3402bb8cd33cbc3e24a152f2ee2a57a6156fd3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0072.png",
+      "sha256": "d4c72149530847a4f78c2cf8fef23b66ca40d625e8d28307fb2f15d614299337"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0073.png",
+      "sha256": "adb34a80c04e312ed1624239c53d71cae1ed77b968dc6ec7648b67c7f9e29c0f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0074.png",
+      "sha256": "c55c8dd2e5524081fa8d7e6d0b054f086d2c295c2dd28a337e764ab2a10b1667"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0075.png",
+      "sha256": "fe3b69de7e07da93f719bab140fae5e19094ef00807cd94afe09f2d62fd6e2cd"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0076.png",
+      "sha256": "70abf4e34d09d1c7f468b9f07d931c67348b9d76f298665b4766d250168cda06"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0077.png",
+      "sha256": "9255286ec62eb6861233f419b80df7e640e8e66818d58a3a1715ee49ecb9cf61"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0078.png",
+      "sha256": "76cddcefdc0dd6d2c9b964923c40b711fdefc3e156e025fad0344d70fdac2745"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0079.png",
+      "sha256": "4dd3fdafb1097d3a630b3c204ac96bada0361fc2df57c9a03d3699309039e142"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0080.png",
+      "sha256": "5c077b32d25ca303bbbc125ebab34c1290759f2bee3cf8ed248573b8159f1a9c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0081.png",
+      "sha256": "3dc65ebd96872d796ba4601bafbeed4c44726220a60754125ade2e2ca564f00c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0082.png",
+      "sha256": "bbb7e7831d578a3335a3740be99322227789130826582fe8e5ecb17367310163"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0083.png",
+      "sha256": "8c7f2a20652afb465a8b5dd3f23300742f5220857e995933460b506536e5f06b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0084.png",
+      "sha256": "efc5ba8a0b7c257e6724ee6030e4e8c3e01614d71205260f7320b226f71f9c72"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0085.png",
+      "sha256": "4bc132e9ff6c34b523b11946058d54d685339019bc8aa0c1793e922b02b31b07"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0086.png",
+      "sha256": "e5ba94195f6241e5797584af2845fb585633f36598114c8992d030ae5d6daab9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0087.png",
+      "sha256": "1724e8ddde3a33fc1a0e9ae876e126bf39874f51cb4cecb8e568fe433cd34d94"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0088.png",
+      "sha256": "a7b5b5001b11b7bf074da17408ed2c9f65ef71bb124a52234083a9032517bab2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0089.png",
+      "sha256": "702974fc5033a75cc1b27206b2231c48530cdb74ae762a04286fb340d8a838b3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0090.png",
+      "sha256": "975287336457933843636539eafd8c93edfae1a91e454c30dc9c226d92c80538"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0000.png",
+      "sha256": "62886a2569966c4a4507a74f2a052ffa721bda01b49b2a01f2271092bc286795"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0001.png",
+      "sha256": "3a9a6ab624c43bd072e60dfc8433741672278a93daf2e67d3a5f459d917f4ae6"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0002.png",
+      "sha256": "f643084c2f35058466e3351d01c3b0bb54327ab26bf8d73854fc5e2434e7296d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0003.png",
+      "sha256": "525d420b952a37586a3200a77cc0708c0c7ab34bd3a9c4cc35c4430ecaaf6891"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0004.png",
+      "sha256": "cba086062ec133a14494376d074830bcf45f3628e4c0ac807069492faa4fbec8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0005.png",
+      "sha256": "c9b912fd13566dc831c68b5e431020093185eb93d91c841110d5028c8ba53dce"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0006.png",
+      "sha256": "edb16c604366ccbfe598b3dcd0fbdcd83b4663454d05f22d83af4466dca2781d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0007.png",
+      "sha256": "65e0f47a6348efb2459bd2fbd21727a48ed5ce79cd1c88db6b66d5bc60b3c730"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0008.png",
+      "sha256": "efcde19a6f4f2de5c2d07afbc58ba1e610e9693260688a0527281d2de4368f1c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0009.png",
+      "sha256": "1d0f7d5dbb914718d225d4c61da5dbaa687e6e03dd037bfb3dc1aaed0a844108"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0010.png",
+      "sha256": "2c5add549d7b651560764e4004e9c34a454c3073f2e257551d99bbe5960564a5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0011.png",
+      "sha256": "08fb807b27f0db62d0d4498f77b4128c4a8757471275fdca991c2a73e215797f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0012.png",
+      "sha256": "327282da6fa0276998eeaa8375b5d2553955d8af75654dae30623d821218c613"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0013.png",
+      "sha256": "ec8925401316d9418eec12e2d570af1de93f8138d4eb0d6257f41f87e7af40c0"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0014.png",
+      "sha256": "3ec7a3df0396ddc63b637cd0b0a279d7861c06ea12eb99c950a25b54c58c923a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0015.png",
+      "sha256": "e9aa80a3794e18cd0e74502f66056be6c2bc4b1df2e7eb4bf052057a1e25ec9d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0016.png",
+      "sha256": "ba36707aef0c09a245eb5cc3095e86c97622511b1235de9e123c7d13c4b274a5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0017.png",
+      "sha256": "ba60fb97efdf71e76e3dd9dd0633bd3b6eed4924975c630b88185376dd2a88cc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0018.png",
+      "sha256": "86d13ea7f00058386b6c3961086c33b3dc8b65b0cd20ad832dca6e558671aab6"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0019.png",
+      "sha256": "0cb95183616443c01d6540ebe000756b4741e98e7c037fc7a37a0bcfc7020fa7"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0020.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0021.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0022.png",
+      "sha256": "2f4249eaad35cb2d714aa1c2d6ca03d309dd726eecfc77aa4dadf80fbf9913d3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0023.png",
+      "sha256": "28d38c0440638e9a57a162151dd7aeb55d6c8e6107419ab3524107a9c6124f87"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0024.png",
+      "sha256": "570c6512badb8cb0d4802309152481a14e6263f64dbd2bae35af5c059643c156"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0025.png",
+      "sha256": "69ee8709570115998a3cb81bbca6ba6bd3c3dd0246e577531ae63d297022698a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0026.png",
+      "sha256": "5d2f4f4b2d3cae5bcd1f51396b7653f5734e21a455f06468a4842759584931af"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0027.png",
+      "sha256": "33d9d5fe86bcf6d059ff3f75a1b5dbef2bb6b788d41ae71beda9271e2765f405"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0028.png",
+      "sha256": "048e76045566c5d42528d947f148ef218f1a3e28c6c38ae87c560f3de1772c70"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0029.png",
+      "sha256": "716f13bf3841a15134a2b9cf6516a253ddfdf9c49e6840eb8f51e000386878a3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0030.png",
+      "sha256": "1287abab38c03ab4deae9bc2655656a4d68c9b35e19135e2c2718ae5b5137090"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0031.png",
+      "sha256": "5a1b91ac2a2487e705766df132b938559c92b018416c908253cba55f1353d61e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0032.png",
+      "sha256": "bad5dd3ec5644d5a03b747036556fed288282b1c2a009e7d7f5d249aacaaa5f7"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0033.png",
+      "sha256": "1aeea35607ca4514cf7828b07a0a19e699bfa528fd9ede28aaef0797680ef8dd"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0034.png",
+      "sha256": "bf5f752f0c7affb667959fb6d5f4bdf8e304d5e5dc226b4105ec960b08ec7483"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0035.png",
+      "sha256": "a5fa78c5f16b7f9bfd0cb1080fc399c2444a410a9dbfed222b280432a384bb91"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0036.png",
+      "sha256": "e18e3ef43d70b4952ca6b9fe44b1d234510a93e83c3071105c421821b5677630"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0037.png",
+      "sha256": "b2874442056725f0aae68e5c29bd9137939b6c4be294df60c9b2959f6264f84d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0038.png",
+      "sha256": "beaa25dfb1928e2d6742f61de10de7219175158859ef8aa587f8279bce031901"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0039.png",
+      "sha256": "86850d9d881457abff6e08f6f0113f241815f247b547fe8614645be5b24afcfa"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0040.png",
+      "sha256": "852b4ae6528ab0f8a2eea89aa62ec335c689a38cd5b65baa31058d8e2c1ab8b9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0041.png",
+      "sha256": "565ea0ea04c99930f13773c614e8abf05b63aef8127f24fc3db04fbe4b89db29"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0042.png",
+      "sha256": "05ece7e3d7d1b2410a381a8c264f16eb817278efcb8199fb978333157b4efd09"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0043.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0044.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0045.png",
+      "sha256": "2f4249eaad35cb2d714aa1c2d6ca03d309dd726eecfc77aa4dadf80fbf9913d3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0046.png",
+      "sha256": "1cb1eea38acf2eba5c562150de8142a5758cb3d762fecbd7b34efc2fdf32dd19"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0047.png",
+      "sha256": "4088be61baef20cd323562fec3e03127a1a1b3f6aa44d463bd0b8c5be5757515"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0048.png",
+      "sha256": "f2e1d85629ba4bf63155ad2044492eb720ef68c6f2c54e7d31b2069a139a9106"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0049.png",
+      "sha256": "1a312ec656d6b63a05cf52712d8b8b25cd3fc02e8ff97e2b21eb710b8e494b91"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0050.png",
+      "sha256": "d2bfc3791e278dde7eca498419f8838444f1e74c5cfa730c380d7e489ea3de75"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0051.png",
+      "sha256": "4a68b2b1b996bf27e6325e55edf5f559b67fe487b74ad01b5119477d10d744fb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0052.png",
+      "sha256": "6c690bd84c6cd95b7f94f53dfd0bf3067e94e526a28658cf7747d0ee4f5cdeb9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0053.png",
+      "sha256": "06350dadf1a4d9673c18ee8e07fa82d371332ccd386104fea54ea1d25815c8d0"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0054.png",
+      "sha256": "cde874cbd502c0076febb19610b18dfea261e9e6af678f77d34f9edbe2aea890"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0055.png",
+      "sha256": "7af285299ab3ad9595dd7a87f4dd2d6b75c4bc3024be37a1fb4bd31873bf9dcd"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0056.png",
+      "sha256": "c9ba4cd0fd2c995e372b15cb58880b91a64e2914699df779d0ee0ce496565b75"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0057.png",
+      "sha256": "f14dd5f7c7afc4866a9682371e724674a136b12f2cc196f503fb206e7f5328f2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0058.png",
+      "sha256": "651e48396afdc5bf7b66fb9a87f9498c09be584931e0945985aa86b2a01b32c6"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0059.png",
+      "sha256": "e72de760918cf72de60a60478df8ebb9001bcf4abce8912c66193c605dbf205a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0060.png",
+      "sha256": "3485ee987608b527dcb26cfbed181c7a11bfc16da0cfcbe7cf0de192bf163332"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0061.png",
+      "sha256": "79135dc68b6c672a595808f73438f07ca8837ca953ae782c1cf0424cf1c47b38"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0062.png",
+      "sha256": "5495fc327ca6bc7829008a37876bc1861aca3a2129657b27fdff214950720d3c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0063.png",
+      "sha256": "bc63dfddc6f9e1fbbf18f213e4a2f4694089fa386c5bf5b50ed4e0044432c9ff"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0064.png",
+      "sha256": "464a3306bca2bb7b2121720cbebd980a24b5b2ce3605ea168d6cbd6ce317e098"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0065.png",
+      "sha256": "73f2c63cde78e2369602450b0f0113f1de09ac0bf4c023e26edb6e9063f18977"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0066.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0067.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0068.png",
+      "sha256": "2f4249eaad35cb2d714aa1c2d6ca03d309dd726eecfc77aa4dadf80fbf9913d3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0069.png",
+      "sha256": "6a3edca5a7b28275a03a81448333c6e5dee4f6bbc3eb63e3bf6f37cf562d4a5e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0070.png",
+      "sha256": "055bc15785c859e623f48fc9b04053a383d2ecd337d06f69da31c52246651499"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0071.png",
+      "sha256": "fb7421ff8165a3110a163bf8b0bf36b07eed85af3b4b83484790c098c1e9a109"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0072.png",
+      "sha256": "c18a87d2b3f9a26a90ef6bf5ad1b3cd7a15ae33bac663f0aa8733fdc80769e94"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0073.png",
+      "sha256": "cd0000e7bfdfbdbac4e87892bd60f95223490c471de9b405594b35cfe56edcf9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0074.png",
+      "sha256": "0859f731502e8bcf7d47d7580d487e10a151df919bdd96e06f5738fab7370115"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0075.png",
+      "sha256": "f911fb0ccccb84d8690b883e0c72781ad909f9e3c40420b82a397e3cd8a417d1"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0076.png",
+      "sha256": "396fed3e5051e2acbc185b0f6264530a1c316897d349c5de5568663671f03e17"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0077.png",
+      "sha256": "22cb9b40b22c5d716cd51a4f3e797a22297a0dd0274be6f254d452cf634e3727"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0078.png",
+      "sha256": "961f93e1690e2d2f1cb43990bdab5c9a066395b6cb6af0ea31eec59825cd0858"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0079.png",
+      "sha256": "a82d700e3be7f67582a538b6d0476ebe79a9ffa097f11a5637b79c1c4116bf74"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0080.png",
+      "sha256": "2d6e985b3b542764a99a223795868d239922e1304fbff4cc1a1b48df07adef4b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0081.png",
+      "sha256": "e4daa26650a7a3d4aaeec72bc1b49c77f5e3a969855513d848c70e8de3360c26"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0082.png",
+      "sha256": "18e76f6bc01fa7ffbfec624b3d0b6ba0778a0104f7a2448e95fa5ab3a7a57f32"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0083.png",
+      "sha256": "b65359104b6751508e13570971e49b302507aa21258da03989cb2614cdbee9ee"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0084.png",
+      "sha256": "8a4ff0f63d404665bcc50bd890de8964b0d11352154134b7b5bd98e6fcfd195a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0085.png",
+      "sha256": "ae21f3dd26a33d561c380f76e83ce827356a1a2b385d243e8afc5522cdf13449"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0086.png",
+      "sha256": "356350f2f4b1ac1a5572071cc03aedd83084a0c4fca74f91b97cc26372b2f2ef"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0087.png",
+      "sha256": "5451240e3895709cd780c4e2cf165cd34c6768a9b33f10d3c280bd3edd32540e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0088.png",
+      "sha256": "90066fb4456dc68366178a299b502995fbd7dc833d63b12b6a84a728b7ba0ce3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0089.png",
+      "sha256": "ebc4d8795875b7bfe15c2e53f001d26d5e0d47190d987814f9a0141bf72f32a0"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0090.png",
+      "sha256": "d48012f8a397ed212ae1f4b76d41ec88296398c34456c639717b5dbf25955638"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0091.png",
+      "sha256": "9570adbd8319e7710bc4f75cdb959a484eaef58eb0eb328fb36a67bfa4e4b380"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0092.png",
+      "sha256": "36b66ec32543fc3dafba70152c3c1f84205b6782afe89862421599f50fa91f0d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0093.png",
+      "sha256": "0c5a3c516b331a9189f743dde30841aa6a928e3b657634a079399dee5c3f4c21"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0094.png",
+      "sha256": "c05dd5eb2a3ef5741e46ce574755e31408930dee9b1a726c949129264f20f41f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0095.png",
+      "sha256": "6e5ecd4367560c36d60fb85eb75bcac2782917d66568a63bb64c92d1bba6f621"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0096.png",
+      "sha256": "f4471c7337562c19cd34d2edb1107749f8d0bdc7f1c894ea3ae0a979e4ada687"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0097.png",
+      "sha256": "deb1b061b5faff8ef4465968c02b7cf00275fcf7adc1e7626d6433a9eea50525"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0098.png",
+      "sha256": "20cd88b04d699deb54095004b60915ce6f2f58306c21784456e6eedaa329d0dc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0099.png",
+      "sha256": "cb4ec971652a3bf2c583ec8947265936f5786c1d0d37431c22372ae3047cf41f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0100.png",
+      "sha256": "50681836a7db14efe7eda5f847f611d41384293c87d2632482bc14b62a090e20"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0101.png",
+      "sha256": "bbd3b7c44cc1c67ff94df8f12cd41eadfffafedfd1af8102a32740c4d374b8aa"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0102.png",
+      "sha256": "9ddc14340ca4dcad80d785e7b1eb1f6170275e5868e349c426e5a637d1322034"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0103.png",
+      "sha256": "ca3399effe30ebc2a514155badf6f5dfe27b56c6419879d2e3c9b8ed4ad00b9e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0104.png",
+      "sha256": "b08662c00b653921c17c7a4d645b307a25b94c7a7a1c12d15e96d860ae98907d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0105.png",
+      "sha256": "4de7d733b366efdfc8aed2da3c049f165949e1d4fea38210865a2c1d7cf248d9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0106.png",
+      "sha256": "5030480c0ea36d8e887ae706dc6e36ef2b881248fcf52a64e7269e97c40878d5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0107.png",
+      "sha256": "ce9413a46d93f27896dc4f9c3cca19b14ad053b8d26030b11578249bb6cd9504"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0108.png",
+      "sha256": "272572f5d49e91b614b76e7448901be7be983f505417922cdad546a8103275e8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0109.png",
+      "sha256": "60ada69ec11ad2bae881595af475a1432c7e6cb1a1929eec2bd23b9e909c0778"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0110.png",
+      "sha256": "c23d17dd9571d5a951e4e0bc97774b42c7bbaba870c4e6b58995715b4cc43031"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0111.png",
+      "sha256": "9cc9ff3484213f35d0af77b86e41e6bc05dcb8c11550f886e745a86dabb65bbb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0112.png",
+      "sha256": "26197640bc332a589627e6885698da977a0c19eda765a42ee722601e3a28b714"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0113.png",
+      "sha256": "f47048991c345dfea390088d29f66fb14d9d4a29b377c6a6af37256ae9ff97fe"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0114.png",
+      "sha256": "3b6ae8663958e8b46114aa688118a5c1e230c177251807a3b335cf8f4e8d1741"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0115.png",
+      "sha256": "0a1a5173cf90a31b399dbf5e6e40c12fb371f234633de9befbb01b1169453ccf"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0116.png",
+      "sha256": "d7327deb8a064d9e4ce441d1ce44598ea4ee7731114ff0ad20c034103b358f64"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0117.png",
+      "sha256": "e4df07a521e8fe631fca5109b5901dd97f4c3e4071dde90c0a0671591d2855b3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0118.png",
+      "sha256": "bb587816f2b827c7953a2037b5db093e613f20a0711669aadb4cfb70f1fd99f2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0119.png",
+      "sha256": "aaf6effb6de7b04bb84f66142185b6a4f7914917e0612d0e901c6aab184e4144"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0120.png",
+      "sha256": "a04c68c91a23089df65ee4720aec03c86b649326ecd8990643d1e5457ef9dd32"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0121.png",
+      "sha256": "2d238c9f238e3912999e66df26eb600a0f3b4a5cb8cda1dafd055157e46c951b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0122.png",
+      "sha256": "aa8cb03a5b1d6cf0a82d060c07ca5dd62dac523276bfb2a152f2b9c7578be582"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0123.png",
+      "sha256": "a8c84e333ed532dc3ceb914ee3db11530867e34d783feb5018bef8fc3a4ef926"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0124.png",
+      "sha256": "bc66cfe84c1811afb056b61e837650ff301c2b3408a17eafd1c2f40e6aa4785b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0125.png",
+      "sha256": "e8c8a7ebbf23d86bb51489533f312116855aaee4fa9acd8cbe4b219c23b08330"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0126.png",
+      "sha256": "c740d3808ce882227e8a4ac76e76cae44bcf6b438f2bba04d4bc9f2c5efa3de5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0127.png",
+      "sha256": "178d5d2ead2a5395c1fc4336d87e554c5b228ef8d8bf688a63a4c365e8e4f63f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0128.png",
+      "sha256": "03dc96459c3f8a7b5634f54dd8df4a6eb76f4acd8c450ffd2062370a8c9843ce"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0129.png",
+      "sha256": "86f911653722a1119536cf916fe1274276dc959c1b14a0483a4169f5770ca5bc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0130.png",
+      "sha256": "bb9138fdec96b22df27f4cb22a78d4e61e630fa493c68883df358e8a96b42672"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0131.png",
+      "sha256": "6de8fc16eaa29cd605b6078c94412fda7aa84ecec58655d69c2221f38a0f8ef2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0132.png",
+      "sha256": "19cac5f4be00ebc0982d79406e85c181b317e367e272ff83f534f8c9a06138fd"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0133.png",
+      "sha256": "bdddd5bb0c3fe87311d440c49004bc264f1164909dcaf17cdf007c1258bca6a3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0134.png",
+      "sha256": "ae22d4f86392e4d66fd31b462b9417b8463231d45009887927bb9314929b25cd"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0135.png",
+      "sha256": "38cf92e9f794355a74af646d8e5c2de3d67db40d53478883975d9eb4a77b6ea2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0136.png",
+      "sha256": "16cc202328e3b25c5da9e93cf12769526806af909433862912f3dbd49e454543"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0137.png",
+      "sha256": "86c99ddf75a7244aad4a143366ef9fa6da29ad191f8d5a40a436ebab52050837"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0138.png",
+      "sha256": "7d6368c9c9d411ff69f2a86b914830f95872b6c7d6e6e1fd2c70f18e458324f2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0139.png",
+      "sha256": "da074155d0baa4a8580477077bc1567443c8e006c2f3487a05cdea394238f6d3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0140.png",
+      "sha256": "db1cb15c44bc59456cef717876d38c55d55b1a7f0d5906017ee04e7f96f3fcff"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0141.png",
+      "sha256": "0060d4dff4725962884d0a0508eae4b2c6a03f56fc8f308576737df475458560"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0142.png",
+      "sha256": "db1cb15c44bc59456cef717876d38c55d55b1a7f0d5906017ee04e7f96f3fcff"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0143.png",
+      "sha256": "b6a3461336a765d7b74a88c1b440d4be0e26e698ad343cf7423ca047647a0d64"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0144.png",
+      "sha256": "b3854ae151a1685b1e699ed31e38444f3fbe2fcdbce9381cff1f1adc7091d471"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0145.png",
+      "sha256": "d98d747d38ff568355da2a962dc02590109776e60ca896675e43e2afcd89093d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0146.png",
+      "sha256": "2f8fd1ec1535da05d985edbee8c0503fea4322b20f15a7b47152c22b471a1cab"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0147.png",
+      "sha256": "2613dd3e7ed8b37ec2696548d934d75ca40ffd4059a95935915f7d565eec3977"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0148.png",
+      "sha256": "b3d04b88f4c6bcb805a6f7dfff17da8f34344825da902caf967effe375a05b5e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0149.png",
+      "sha256": "ec99a982e534e1133bf6e30dfc482f9cb126e6a652bd96f3d262efb577fd2480"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0150.png",
+      "sha256": "c271110494394daaf7269f72fadcfcafc80c0766b3cf955bea00b726f7f3e648"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0151.png",
+      "sha256": "549ddda3652bae88f41c18ad47b4739d83967063b6e74a678e3347c430719d8d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0152.png",
+      "sha256": "28784c22a7290375e81bd08166908131060ac25088e82a3d670b1439ce9fbb1b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0153.png",
+      "sha256": "7b5fe39453e33d15dd06176ecfa09831d8a7ad7d4e0be516066057716a5a57b6"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0154.png",
+      "sha256": "b3e132b8cb9a2efd97aa17def7ac465d81c6afd62a1311f9f8f8d74079d1d403"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0155.png",
+      "sha256": "a2009f3270282fbd253aa802f422ded7a8eea9fdd57873d91639298b94e1e4e7"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0156.png",
+      "sha256": "8c4983f523b76d08ce713d2f98cdaed8c06275655a97cb460dca98cd4bec79d8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0157.png",
+      "sha256": "2457aaa035b43795fa6a1940e0fb8e6106970df5e0307180a5d54bf1aa762315"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0158.png",
+      "sha256": "230a8cf8778a4c54c5009944f9ea6220337d528d4ea09bf5d8b70b31338d6444"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0159.png",
+      "sha256": "7de00685c337710a5cec56358302e45c76c222e679a92188567b2394d3f8dd28"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0160.png",
+      "sha256": "095848d9f9c15ee6f1de43d8c623d5186b219bfaf158f3ac8ffad1ff2e6eb6e8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0000.png",
+      "sha256": "1e8e9cf366ce7c6d03da334ae0412a39beb6ce7bb29cce77fbf67910bcebd250"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0001.png",
+      "sha256": "3a0da15ec4b12b14689f8b9432c83674d81f708037e822e7375931014586a9fa"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0002.png",
+      "sha256": "add513d2c01d150fca45e5196e6727d922402c9c6de371fb10637e65a202f4ba"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0003.png",
+      "sha256": "eafb246ca93ba6ca844a641d66500ba527844f8cdda2d0ae2ddfbdf07e1b260e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0004.png",
+      "sha256": "bc76c693e2332528d335d5e4497fb147de6509fbddce10c082195cf4eb205394"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0005.png",
+      "sha256": "c9b912fd13566dc831c68b5e431020093185eb93d91c841110d5028c8ba53dce"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0006.png",
+      "sha256": "edb16c604366ccbfe598b3dcd0fbdcd83b4663454d05f22d83af4466dca2781d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0007.png",
+      "sha256": "65e0f47a6348efb2459bd2fbd21727a48ed5ce79cd1c88db6b66d5bc60b3c730"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0008.png",
+      "sha256": "d60b23e4496e08b4a28a947d1c58844d5848f18baeb61645a377d413b79d7e1a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0009.png",
+      "sha256": "6bb0b9ca024d6caf24b57c6705b318c3572341a27b2d0042b726d8f9aeee001b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0010.png",
+      "sha256": "72d54644f6cd10a79c5b56e115d7a27893244e4bac376e050268019192fcd3c8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0011.png",
+      "sha256": "d5a6b2aeec55dfb0ae10256642af7dd019eecede4eb022814f408e05a9588a16"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0012.png",
+      "sha256": "4bf07aad09c7f204ab8c141626862be0521c8758579f2a7089f583c6fda98050"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0013.png",
+      "sha256": "2b04321b512ba21e3af340940ab0073e3fb231d1929d38ac61a897e36a6a0793"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0014.png",
+      "sha256": "e762ba7ee9e452a50dcf2ea76a6407cce28c153f9ec74124ac29103cbecb48cf"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0015.png",
+      "sha256": "286148c81e7127cfb869cb91663fe4bc01c09e32eede4263b1f986c2d62bb3ff"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0016.png",
+      "sha256": "2da8909fa28a87c60cdbce39468edbed4197619b675eaafee7f9e7b9a9356141"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0017.png",
+      "sha256": "b8f7267115b1f19c307da069381c58338965f108b4ac913eb4641ae826e0124f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0018.png",
+      "sha256": "66b025b7665aef8a85a18e8112a886de901e9717b77fa4816b2199eeedff447f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0019.png",
+      "sha256": "16b656d317ccc6bd7edc7f9c99698a270a9946a1d9470ae41832e3c9910f4c46"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0020.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0021.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0022.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0023.png",
+      "sha256": "7d836ecff2660e7aff33e99395eb2b77fad924725e8384790e6324d079eaf274"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0024.png",
+      "sha256": "90dcc1c0b5e41d434e9c1082c76a133fba6334b6b59f182cf9550fbcf1080252"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0025.png",
+      "sha256": "200985e6799a07b711b54afbc15a6d96b2bec8b95cd9b97debb09e7d304c0bce"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0026.png",
+      "sha256": "2504235edfc24ca4334187072e402b3b48819e48d9e3dccba5b62af804100375"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0027.png",
+      "sha256": "6026b4c007a2c47cd415ab00c024fc0250eb711beabd0508dc46c8a2e5b849b3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0028.png",
+      "sha256": "048e76045566c5d42528d947f148ef218f1a3e28c6c38ae87c560f3de1772c70"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0029.png",
+      "sha256": "716f13bf3841a15134a2b9cf6516a253ddfdf9c49e6840eb8f51e000386878a3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0030.png",
+      "sha256": "1287abab38c03ab4deae9bc2655656a4d68c9b35e19135e2c2718ae5b5137090"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0031.png",
+      "sha256": "78f415533120c1a106620f444bb4730985aa5129736ae1865eff693841bdb64a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0032.png",
+      "sha256": "23736380ccfcdd611502725273f595beb9d63f3eeddb7f3ba72ca38a18de3ee2"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0033.png",
+      "sha256": "497f8c01cde37e54bf6bed3e8a4bdaad4319e1ed9c3c191e7a89a0194f6985b1"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0034.png",
+      "sha256": "d0321a80dae17368e364e836503ea788509e9ec3c70d8fa9a4f889a7370c80d5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0035.png",
+      "sha256": "067254b7c7a52cfbe41aa03d1c3c08abf4c44022a7e0e50ccefd3e6df89f85fe"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0036.png",
+      "sha256": "a56aedf01f55db45b9d0556b137d7dc44d15967c8a2e7d867959aec4c3d2837c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0037.png",
+      "sha256": "237d4fa502526fdd6904dfd446ea3a51cf5052a362b35cbeffeae572d97ead9b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0038.png",
+      "sha256": "899e62c4c68316723a16b78b20f6adc5922a81f5d7e048ad179b56d10a9b28a6"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0039.png",
+      "sha256": "d4522314d36f983792184e283f548c0715742d4789681728e708b0b2094e3627"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0040.png",
+      "sha256": "51d713ae303e8316d748eb4555407e4b0115692546e92a87b3f8420b8c7f3b51"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0041.png",
+      "sha256": "b1b2ea8548947066d9f72ceb33818b5198b2ab2b3ac3699e2de75ca193209811"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0042.png",
+      "sha256": "fc626c3840de758995f6ed970c7f552e466abef3f88dfe1a115a5c9d37c6c273"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0043.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0044.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0045.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0046.png",
+      "sha256": "f5b4aed5bab42bafeb85885fe60f62abcc8e4616cb56ea519f94a90cd326dc94"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0047.png",
+      "sha256": "1e6aa39d7f78a720777cbd82ac74bf8acf17a457668ae69ffc1b06c5d0a83734"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0048.png",
+      "sha256": "41437246b048072b42dee4dca159c5a5ded9d7a9c512d7450ad854b8718b4561"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0049.png",
+      "sha256": "e8041ec84a91079026bbc3b9b4ed6ce71b09a9b8bc748e22148a2153f0af5050"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0050.png",
+      "sha256": "38744a487781285c29ab6f75046fc52a2982d9f0d61eb576d5af13a532efd63d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0051.png",
+      "sha256": "4a68b2b1b996bf27e6325e55edf5f559b67fe487b74ad01b5119477d10d744fb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0052.png",
+      "sha256": "6c690bd84c6cd95b7f94f53dfd0bf3067e94e526a28658cf7747d0ee4f5cdeb9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0053.png",
+      "sha256": "66d69a27bf2d4eddfc13268cc9e13a7131e3596fa7c132576f6c8cb7d296069b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0054.png",
+      "sha256": "141056be539cbc5cda9ff97c664c214972e8cbdeb30a086ea208e8723b347fba"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0055.png",
+      "sha256": "77e4fd802662c42788159fa0ff1680062ddf1070ded1a89d6b3cbefccb7e1cc5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0056.png",
+      "sha256": "05c248cc126c495b99c36aa6be011ccd5589f2353e66d277bc003a0bd89323aa"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0057.png",
+      "sha256": "e313b2a18bf35014716a8494c9466294dbb6a4167512160f873ff279c40432fb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0058.png",
+      "sha256": "9f61051d2d90516f62daa6435e9c4a929888b13ef5b940860edfbed51494f6b9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0059.png",
+      "sha256": "f1364024e963bccb67835581f3e2605fc88a44b9dd2746f8cc1d9e56e5ed2c66"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0060.png",
+      "sha256": "2b74a916d0a54aaeb8a6e5521f4bf3cfd7c34ae935553525e0263c28dfe74814"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0061.png",
+      "sha256": "5a087232f117c59dde04e60390f1bc9904b7b61215b432ab677980dd865b1cce"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0062.png",
+      "sha256": "a9787672ae01b41eee088a9e69050d0886cf5846e4bc2061d79cdaea5cfb5235"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0063.png",
+      "sha256": "8ec27a64bc81cb822ee9320d002e8864618a0fbe11b22687e2ff2c6d5648da59"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0064.png",
+      "sha256": "affa5d80bc8ccfa60517f80d1afe0c1b4b2b4eb91b26af0492826659bb31f549"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0065.png",
+      "sha256": "d913bb6b008849be4307fb284b25b2548517cc14d7c5ecd61d08ab6110d4d9fb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0066.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0067.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0068.png",
+      "sha256": "7055b76c0befa453a4d10e8e0be54f47b4d29e99fe8b72084ceb14b7e29ae51c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0069.png",
+      "sha256": "af8dd643503f819bc5f789af91e3e45a8795636f45da9b64439143a9dc1211eb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0070.png",
+      "sha256": "7be75b9c9c754ccc19a6be82eaf78e3fcd2f722ddd09e7e10c031d15ac50aded"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0071.png",
+      "sha256": "ea4c96182cf7b33d87688079523d7ef61b5c4fceba03e919b4186bcb5931979d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0072.png",
+      "sha256": "a203e945feba4da01cddd2b462830bf1fb80b470abb6403614cee94ab2c2fb11"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0073.png",
+      "sha256": "e93adac8cfe815c6dc5c3c5e96e56c7119ac931a2fd5dfd66f1c9dfee323a92a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0074.png",
+      "sha256": "9c65d00a1f7cbee211f2e6403b729a4954271e902befd020abe7e538cce28ae0"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0075.png",
+      "sha256": "7c54c52661d947d918bd3cc0121e37c82234655fb9f191388298fb12da546693"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0076.png",
+      "sha256": "435682f75794e36a612a1a3571b589d36a1beb0d5b6abd7d1062f68771bbca0c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0077.png",
+      "sha256": "94b84a5dc7449d0389f770c72ba4bcf9f8e152288092f207cfc77de7f3c0092a"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0078.png",
+      "sha256": "28587d96f10f46034d05bc101cff01a400b6c0c501d005b4942e7962b11c7e26"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0079.png",
+      "sha256": "a9184132d016c86f2f8c1c27dc14739e837a429403fa2161fdbb89bde7517ebc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0080.png",
+      "sha256": "dab9fe92e80fe84e85f2fb34aab6657d805f4fdf74dd64864e0d28ffc0bf51fe"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0081.png",
+      "sha256": "fab7bb982a24f4370177b909ef9340be8d5e15c8db1ad3f9305a6412eeee65df"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0082.png",
+      "sha256": "6381fff43adbb98f5364552fbf56ff01155d30feff1022fb34f718ad5971c341"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0083.png",
+      "sha256": "61ed0b4629598a28c643e9e97f75e2dae055e698115d13fb9e9708d48eab36fc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0084.png",
+      "sha256": "cc4eccfac257f587c771f4687845a97779d4aaab3aa14503ba8c8ec0211a06a0"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0085.png",
+      "sha256": "0a85985ac4664d5c15b8e515c194c95f06d860715f2301230585eac50e1edc34"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0086.png",
+      "sha256": "7bdc8d7f872e614336212940a98e5a0eacbc3362c93cdee312595bfb3844e91d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0087.png",
+      "sha256": "3273ed69fd076be1853760813bc01fdc9ec0210026ca6fce2014f49f3689fbca"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0088.png",
+      "sha256": "a254d384439aa67089fc9536efd49109f41af6af7549295bdd2e9b17a3b246f1"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0089.png",
+      "sha256": "7007b78aceb4ef90ea9d1a67bddd032b5dfd3c921b93ad4c80b218de0d422cd9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0090.png",
+      "sha256": "09b75f18b19fd3cbc05b1867e7f8b1de622c445e17cb58128dffe341946fac21"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0091.png",
+      "sha256": "7a2929d9a3c9bdd87103213a3b8a27d61e92dffa922390f55862ed84da6d6081"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0092.png",
+      "sha256": "0568c41f63ff238910eef38823f6ef17dad228178922a45de550c802456e7f3f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0093.png",
+      "sha256": "6f431bd21b71f55eb45778733a51b714e9c94ac23af716729b27aba2c881cedd"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0094.png",
+      "sha256": "89f65c8499f998e943cca9cef5fb2c691c71c9ce8dd7cfdba2e674ac9e4d543e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0095.png",
+      "sha256": "2b067cdec0b90834aa6e8d28cbcb3e4d8a5751c038b501e97ba759b57ae0b92f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0096.png",
+      "sha256": "6e0865faac795e5a4edb58b93f8b9822b309f57f9f5adc22b11c0d5db9aa63c6"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0097.png",
+      "sha256": "8496a42ac107b1127505adc25cfb82b2aaf3026511493fea5c1501a162900834"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0098.png",
+      "sha256": "8a4b812c39516896137e675f7b78bfd303283669cc3157e03e91917ba9ac767c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0099.png",
+      "sha256": "4e3e07b79855ae952103c84b1ebf5facca869db1eeb699dc9fd03a7fde6affd1"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0100.png",
+      "sha256": "c3e556b8b6bf0ac8aac25696b8aaa9ce03981dec08b910bf0bed2ff3a122deeb"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0101.png",
+      "sha256": "aea51084be48b6f0c456625899b8d9bc9e7a078ef37309f277f30654c0b38622"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0102.png",
+      "sha256": "e11a32d4cd584eb6c6a7ce05c5e3a278db946966e66be906c5b8bbefbd7ab3a3"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0103.png",
+      "sha256": "90ce054d9dfb9db5f0266784ec5d334376f981be342a310c45cd43f7db941fd5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0104.png",
+      "sha256": "ab429334b8560b7fd3d75a7b58d2c5a437f189ae56d343b838322718e612c9d8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0105.png",
+      "sha256": "c66961282c2bda99b40e44d74251b1d8f8a91f2d144b4be91e99fcfb7f812977"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0106.png",
+      "sha256": "fb8ec8de05bfc734991585dbd62838f8a98b18e0f3a9369f4a1b7107333ed72d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0107.png",
+      "sha256": "357213794fc90308597248858b48fc3592df2f98bfa7d0b661c3ed29d3f03be1"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0108.png",
+      "sha256": "d43be3db8e21b5d7f45837fe7f4593d1a1b57d6db411d2e82b01830b60d9759b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0109.png",
+      "sha256": "34d82426ffde316afa8bb48d89b7d2be88b04be67057452a2457a4681cf5e9ea"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0110.png",
+      "sha256": "d219288bc1d3945dc8288a1055f9342494252c01fde23d2411ac21b46639c674"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0111.png",
+      "sha256": "8ffaca973fc554c4f0f4f3273da3898f7eaa7dd515f9685f97715d89adca8d41"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0112.png",
+      "sha256": "c54f71f125839b4b3f2875b34760829aa3d6a99872246f5c11c3ef532283b9f1"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0113.png",
+      "sha256": "b0b667fe170ba9ed1f5e0c0d830038888cf843e515154fa6b64ce8a27825471b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0114.png",
+      "sha256": "84ee2b5b92a81bb682c1a0df2bbc85ddb289de2351cc080032ac2196b58f546c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0115.png",
+      "sha256": "d5bcf9feeea2cbe667802e24d5e26feaf1b3eb194f61bf2cc90483a6f9ac1981"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0116.png",
+      "sha256": "9dbc70b94670263d4fd0b0959dfc1d671e3aa16ea140a38eee08797ed7666a75"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0117.png",
+      "sha256": "f000ccd9e78c14b7c91746e35fea217865ace7ea5ee4cbb53d2117b9dbab9c94"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0118.png",
+      "sha256": "410100528de97ed260b6fc84e3ad414e10238fad7a81371726914f065ca27b5b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0119.png",
+      "sha256": "99231e5f49fe5d82d76b046ea0695c7dba87c131414ddff3abd5db7b461b9f87"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0120.png",
+      "sha256": "395581453270ffa8475cd82af83a3190db138da7a2221549d61131d985dad92b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0121.png",
+      "sha256": "2f1292b625ee5b27eea2403275f22e65dd33f20750ea8d404c199f799436341b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0122.png",
+      "sha256": "87de97b08333c04654568ba63e9018aff44837c2299ccee47d1f743b26affe59"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0123.png",
+      "sha256": "c13fad2b55132c02d86fb21345c6f2ad784fa65e1ab9b462d4ae0e85954d0f93"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0124.png",
+      "sha256": "9a432cc809dd3fbd54b570a2b8cbaea893c8f1fc9f1a1dbd56666424847886dc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0125.png",
+      "sha256": "cbac8cc16cd30fe2dd2cbe1491efc68e8cea406d1353695d95802592e0e31f64"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0126.png",
+      "sha256": "3a6fd59f4c8ca83ed0aab8e495c5b761665085553454a91d05c31ec06b273537"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0127.png",
+      "sha256": "35daacce6ca6de5e6dbfd051a2626acb96d73fa50a23c2d0c64c8b20667f21e5"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0128.png",
+      "sha256": "2f52b5b036a548f6b35fb4283d70161a6256bc2113e4a3b4ef83746c15b231b9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0129.png",
+      "sha256": "6dc72e7aaff47f535331385593c648d163467f86e38a907a45cd52acf7a986ea"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0130.png",
+      "sha256": "caacc627ed5f4dd6e1e433869e7a96befcf6734c8845afc9f68d3f8d79db4bdc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0131.png",
+      "sha256": "82e92ecd2ff23be046745dfb7affff929174ce3214df9f2caaca1a8bbda6aa53"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0132.png",
+      "sha256": "a28b3db4c5ddd5f8ea5a9e1fc7cf6dca5003194aed0a29c60ff12a85529c3681"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0133.png",
+      "sha256": "a88d518cdea409cb457d50eb184dc30aa1576bc2406e35e5361fdcb68e7cbc7f"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0134.png",
+      "sha256": "e3f37c3f9e2dab9a361f820133af80a917673f261a5f59728872b5711c143d9b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0135.png",
+      "sha256": "9230ebe40aba800086d320f5ca02ace87b40a602641c4d2e689257b20b06078b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0136.png",
+      "sha256": "58708e5d8a596f2d52fd6bb3af8f74b06bc17614b967b9b1ee471dbadb3c0374"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0137.png",
+      "sha256": "410f94975e71178232a94af85767236a1e05b29a0b1c043af0bad0ae3975833c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0138.png",
+      "sha256": "aa219974bdfd8eae405e3b588f1be0fd9eda660cdfb9dbc2cf55d93d54fc752e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0139.png",
+      "sha256": "56a45ef835daad37a3252667d3fc9b817b8a65e9d7a560c471ad9b13315129d1"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0140.png",
+      "sha256": "b68e18cc5a93f06c8cf5581f5e06a435d8961d61d44ff371ffa71d73af1cbd4d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0141.png",
+      "sha256": "d7908aad747e2f48b850e3ba9140ea4e99df291ad518fca2333ac928d62e34d8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0142.png",
+      "sha256": "b68e18cc5a93f06c8cf5581f5e06a435d8961d61d44ff371ffa71d73af1cbd4d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0143.png",
+      "sha256": "13865d153f442f16e3e256d242858e98576e0a00b4c7d1357ae98ce9e137436b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0144.png",
+      "sha256": "ac59c2bbd0c80f7b15d3373de05cf725392b4a56b966857a770a4bd08dbbdafc"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0145.png",
+      "sha256": "e08b6342f7b015959ce1843bdef8fe9e7898a91204824a971aa62928b00bcc61"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0146.png",
+      "sha256": "0206137b0daa03fbe28d18d17ad9a63b9a8ef82f7d5ea814a82c71610734fcb8"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0147.png",
+      "sha256": "94e57854fdd1ddcbcf647c15bdf3e64b8c4986f61b377834ad9325c80d719a6e"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0148.png",
+      "sha256": "529eda9e306c901af792137bc038a75636dcba53d992c15c225b6974eae3d8ce"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0149.png",
+      "sha256": "d65f02901aaef7c2b7d9e8ae5d4b342cb762a0d6d1248f796b71f97f3018e571"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0150.png",
+      "sha256": "36cf33f4912f8a34f66be5b6cf01942ece5ffa531879be903bab871a43f4dde4"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0151.png",
+      "sha256": "505f28255e7126f73e05164400d0bc7c6876985707566de022b0190b9a710088"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0152.png",
+      "sha256": "cc3cb64320c36421eb99772da02ac6cfe333e7505cbf8566766914efcf377094"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0153.png",
+      "sha256": "b24704e416699cc9c0f61c03659cb368135e191a1db86b50951b34eac9844c6d"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0154.png",
+      "sha256": "708b143f78af531b7c8f4b1a2e4d18a23c0d87f0141a103ce375f806d3213d32"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0155.png",
+      "sha256": "60e9ebe7279914caa41d3609a404c7c1f1260a49e1fecf7cd057d708e823cd15"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0156.png",
+      "sha256": "e7635a8ddf7810eab23c31df8395397ee7d30c97c5a4d82cb9793ef331412921"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0157.png",
+      "sha256": "791d2ba09c01abecf0f84ef15cd8f202cd649204b2a873f2b87963bcc2164ac4"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0158.png",
+      "sha256": "9c7ffa554a9b7197da06f427e76f6dceb2e29fb37cf30683ef07e66f0aec6c46"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0159.png",
+      "sha256": "8670cec98b20d3aa1178391469a72c7e9a3097970b1887a74928927d051315cf"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tiles/Small tiles/Thin outline/tile_0160.png",
+      "sha256": "783aa05027a4e817367ac58a02b95c4823d6eb0a1fafa26f70ac0289a792aa13"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Large tiles/Thick outline/tilemap.png",
+      "sha256": "22c0ee4db25954315a517fc5876f7b107c7c83b731f99cb60a84fc62cb1d3a3c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Large tiles/Thick outline/tilemap_packed.png",
+      "sha256": "379bb5a009ae8e78573d294fd4e2b180ae327d3d34a0fdfb19a0118dc727522c"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Large tiles/Thin outline/tilemap.png",
+      "sha256": "683ee7944cc4d0f3eb472a6dbfea2e61a04e3ca5fbe5c7afe03b347bfc578489"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Large tiles/Thin outline/tilemap_packed.png",
+      "sha256": "bde687179e542fc1d05e3df5257e1b2d0e0843e328a5fbd0f635a541c49f1009"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Large tiles/Tilesheet.txt",
+      "sha256": "3007f62183275273bb3128e1eef188b986d4c5f918dff8d025d11425d461d73b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Small tiles/Thick outline/tilemap.png",
+      "sha256": "b4974cfdda83817e10b0bc1995947d0bcf8332be366f16cf3883dd1b6fa29fc9"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Small tiles/Thick outline/tilemap_packed.png",
+      "sha256": "ee750f85cc1418deb76e30b01dd36a01dd5eead911d2575e26d846b06a888a3b"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Small tiles/Thin outline/tilemap.png",
+      "sha256": "93f85112712acdf7b51ba038d8afc98f07eba0ea6dc682cf2544b6d069239767"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Small tiles/Thin outline/tilemap_packed.png",
+      "sha256": "e11a08abb13ddee96f01612ced167c944b30f3df4e22b4e301f0464129c7f254"
+    },
+    {
+      "path": "crown-clash/assets/ui/kenney-pixel-adventure/Tilesheets/Small tiles/Tilesheet.txt",
+      "sha256": "260ff15056db486ee6b82aabc6c2bee67e06f2b7fff917171711c26e8269190d"
+    },
+    {
+      "path": "crown-clash/index.html",
+      "sha256": "8829a54f621f05c769440fd8a7761087ba4fdec21b61ced7d0b5164d67b8b58d"
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "93ef4d85d4cad9a2f11d7546dcaba5234453b916e8c741456e3c69326205e01b"
+    },
+    {
+      "path": "images/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "index.html",
+      "sha256": "7581bd85b718aac0c511c504c26c2aaa1bfd987641c687e75e56afe199283a59"
+    },
+    {
+      "path": "index.txt",
+      "sha256": "5c73a2b1fe65fc18f2497e2cd0e69f3b028d9df3b43be97edab492e9c7295501"
+    },
+    {
+      "path": "notes/__next._full.txt",
+      "sha256": "f2d46aefaa1fc7658ef70e7abc7b97ca14bb19fd3f5727486ae5d7e89be2cd63"
+    },
+    {
+      "path": "notes/__next._tree.txt",
+      "sha256": "a8010101b509c2d3555a0206afc972973db0e7f71b885a160eb59a06103c8c19"
+    },
+    {
+      "path": "notes/__next.notes/__PAGE__.txt",
+      "sha256": "6ac9efe6415d7a47754aa9bffc9ab5e275bccbcdd241ff6f08efe0567dba0bce"
+    },
+    {
+      "path": "notes/games-career/__next._full.txt",
+      "sha256": "0e69cf2de36e1497f5dcf64f2717e2e66514d6d1291e7eafe1b522c6e63c58ea"
+    },
+    {
+      "path": "notes/games-career/__next._tree.txt",
+      "sha256": "1d41e8534260744a0cfcff85e1408b94e9a7e9ec6bef94408f15d53f136092f7"
+    },
+    {
+      "path": "notes/games-career/__next.notes/games-career/__PAGE__.txt",
+      "sha256": "b5860fc09d9e701911b0610690054da143ac48d4e364c1bb73f57eaae97fb61c"
+    },
+    {
+      "path": "notes/games-career.html",
+      "sha256": "da6e50f6de290af6c39613fa754cd15ec061351e431f6e2fbcc4cfda1febe772"
+    },
+    {
+      "path": "notes/games-career.txt",
+      "sha256": "0e69cf2de36e1497f5dcf64f2717e2e66514d6d1291e7eafe1b522c6e63c58ea"
+    },
+    {
+      "path": "notes.html",
+      "sha256": "9b34f9623220e0e55c4e401f11510cb1462233e8499a8abad8c723186d484b9c"
+    },
+    {
+      "path": "notes.txt",
+      "sha256": "f2d46aefaa1fc7658ef70e7abc7b97ca14bb19fd3f5727486ae5d7e89be2cd63"
+    },
+    {
+      "path": "seo/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sites/lanqiushengya/bilibili.jpg",
+      "sha256": "75239ab202e94008086371adacb95c3fdb53a5696a0b849f305f0ae4db2cedbb"
+    },
+    {
+      "path": "sites/lanqiushengya/channels.jpg",
+      "sha256": "d6725c863be811ddd05f88ab8a6eb69d53ea5539fbff175621e7167c6b641827"
+    },
+    {
+      "path": "sites/lanqiushengya/douyin.jpg",
+      "sha256": "eafe8ed6943c45c2eaf11cd3aa136698a7cb19912e057461fe562195c5170f63"
+    },
+    {
+      "path": "sites/lanqiushengya/pixel.woff2",
+      "sha256": "926fc7e7f1ee0a7badaea7988d205c80a423280d8da0fb59a9deb0d322402f5a"
+    },
+    {
+      "path": "sites/lanqiushengya/portrait.png",
+      "sha256": "6eaae5bf162ae004e4090e0af13e492215d2526696a6fbf31ffbf9f18f524390"
+    },
+    {
+      "path": "timer/__next._full.txt",
+      "sha256": "e835b7b9e4f402d16dd99a1397c5645f5bd092cce71781a25bff35d7195cf16d"
+    },
+    {
+      "path": "timer/__next._tree.txt",
+      "sha256": "c03bc69d736f3fab76833d133f1d024f9224c117fd9bc6eb4561136f8325bdaa"
+    },
+    {
+      "path": "timer/__next.timer/__PAGE__.txt",
+      "sha256": "f9dcda173cf2c97eb7b0bd5c019c0bfd9f8fc9a9b07a7ecdd44a7133a8ffb99f"
+    },
+    {
+      "path": "timer/games-career/__next._full.txt",
+      "sha256": "fd80af4332e08832e171a77d7ec9c1aeeef3df4e2fb12106697dbd83725c174b"
+    },
+    {
+      "path": "timer/games-career/__next._tree.txt",
+      "sha256": "f7f214ad8e368a3053a59afa2317f9d610290d50f95cf74d559153598f1d9d21"
+    },
+    {
+      "path": "timer/games-career/__next.timer/games-career/__PAGE__.txt",
+      "sha256": "ff41a19c6776de3373e2b858f2d4c40ba2a5cecc71494b4f9f539e0a479b70ca"
+    },
+    {
+      "path": "timer/games-career.html",
+      "sha256": "49d5236082a39b48baeabebafb245e39b71bfd5930ce7053695b01156d49a189"
+    },
+    {
+      "path": "timer/games-career.txt",
+      "sha256": "fd80af4332e08832e171a77d7ec9c1aeeef3df4e2fb12106697dbd83725c174b"
+    },
+    {
+      "path": "timer.html",
+      "sha256": "136367e33ad7f4a020f3f63896bcc2e7674baecc8670481f998496f4af6213cc"
+    },
+    {
+      "path": "timer.txt",
+      "sha256": "e835b7b9e4f402d16dd99a1397c5645f5bd092cce71781a25bff35d7195cf16d"
+    },
+    {
+      "path": "videos/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wheel/__next._full.txt",
+      "sha256": "6f03ff0d32c9e9e7db4a5c40faf4978b1c48966aa54309833bef448f41d77053"
+    },
+    {
+      "path": "wheel/__next._tree.txt",
+      "sha256": "40a6f9ef7a536e8b6a5b1b1040a03ce878be55a1580f4acae28b40fef1c13e36"
+    },
+    {
+      "path": "wheel/__next.wheel/__PAGE__.txt",
+      "sha256": "dfd4fee60dbba2acb5beeab6e6d58da6fd36ee784f94dd9c6b78e8f29cf03efc"
+    },
+    {
+      "path": "wheel/games-career/__next._full.txt",
+      "sha256": "b45583328c19a270cceccb2d30657ed2d45b25a80458289830b720520d6ff19c"
+    },
+    {
+      "path": "wheel/games-career/__next._tree.txt",
+      "sha256": "541671560a8ff24e54e7e2c697fd4357e7cc8c6fe7acb55b49ba5956ccfe6d40"
+    },
+    {
+      "path": "wheel/games-career/__next.wheel/games-career/__PAGE__.txt",
+      "sha256": "660fd8e5b2fb3f7e5952ddf73b01fab5a3c3d7dc530c027f55d7e64ddb42335e"
+    },
+    {
+      "path": "wheel/games-career.html",
+      "sha256": "adc4b3e1564b1833d93fe5eb7663a98b295becdcae772930d290b827ddc0f44b"
+    },
+    {
+      "path": "wheel/games-career.txt",
+      "sha256": "b45583328c19a270cceccb2d30657ed2d45b25a80458289830b720520d6ff19c"
+    },
+    {
+      "path": "wheel.html",
+      "sha256": "cb48f46390f44005d6307ba58f606055a3997e42d045946e13e61db9f23a918f"
+    },
+    {
+      "path": "wheel.txt",
+      "sha256": "6f03ff0d32c9e9e7db4a5c40faf4978b1c48966aa54309833bef448f41d77053"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+name: Publish Crown Clash alongside the toolbox
+on:
+  push:
+    branches: [codex/crown-clash-deploy]
+    paths: ['crown-release/**', '.github/workflows/crown-clash-pages.yml']
+permissions:
+  contents: read
+concurrency:
+  group: fran-abcd-abcd-production
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: '591f8fad9d51a834bf7714007337623c'
+      WRANGLER_SEND_METRICS: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify the current toolbox and unpack the reviewed bundle
+        run: python crown-release/verify.py before
+      - name: Publish the preserved toolbox plus Crown Clash
+        run: npx --yes wrangler@4.153.0 pages deploy site --project-name=fran-abcd-abcd --branch=main --commit-dirty=true
+      - name: Verify production and every preserved or added file
+        run: python crown-release/verify.py after
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Crown-Clash-Deployment-Verification
+          path: crown-reports/*.json
+          retention-days: 30
+          if-no-files-found: warn
